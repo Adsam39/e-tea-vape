@@ -1,5 +1,5 @@
 @include('header2')
-<main>
+<body>
 <select class="select-produit" name="cbofiltre">
     <option value="filtre">Filtre</option>
 <?php
@@ -10,55 +10,11 @@ foreach($catAll as $unecateg)
 ?>
 </select>
 <?php
-/*if("cbofiltre" == 1)
+foreach($enregAll as $uneligne) 
 {
-    foreach($enregAll as $uneligne) 
+    if($uneligne->Cat_id == 1)
     {
-        echo ("<a href=''>
-                <div class='card'>
-                    <div class='card-image'>
-                        <img src='../img/sw.png'/>
-                    </div>
-                    <div class='card-body'>
-                        <div class='card-title'>
-                            $uneligne->libellePdt
-                        </div>
-                        <div class='card-excerpt'>
-                            $uneligne->QteLiquide mL
-                            $uneligne->prixPdt €
-                        </div>
-                    </div>
-                </div>
-                </a>");
-    //echo $uneligne->libellePdt . " " .$uneligne->prixPdt . " €" . "<br />";
-    }
-}
-if("cbofiltre" == 2)
-{
-    foreach($enregAll as $uneligne) 
-    {
-        echo ("<a href=''><div class='card'>
-                <div class='card-image'>
-                    <img src='../img/sw.png'/>
-                </div>
-                <div class='card-body'>
-                    <div class='card-title'>
-                        $uneligne->libellePdt
-                    </div>
-                    <div class='card-excerpt'>
-                        $uneligne->QteLiquide
-                        $uneligne->prixPdt €
-                    </div>
-                </div>
-            </div></a>");
-    //echo $uneligne->libellePdt . " " .$uneligne->prixPdt . " €" . "<br />";
-    }
-}
-else
-{
-    foreach($enregAll as $uneligne) 
-    {
-        echo ("<a href=''><div class='card'>
+        echo ("<div class='card'>
                 <div class='card-image'>
                     <img src='../img/sw.png'/>
                 </div>
@@ -71,33 +27,30 @@ else
                         $uneligne->prixPdt €
                     </div>
                 </div>
-            </div></a>");
-    //echo $uneligne->libellePdt . " " .$uneligne->prixPdt . " €" . "<br />";
+            </div>");
     }
-}*/
-echo ("<div class='card'>");
-foreach($enregAll as $uneligne) 
-{
-    echo ("<div>
-            <div class='card-image'>
-                <img src='../img/sw.png'/>
-            </div>
-            <div class='card-body'>
-                <div class='card-title'>
-                    $uneligne->libellePdt
+    if($uneligne->Cat_id ==2)
+    {
+        echo ("<div class='card'>
+                <div class='card-image'>
+                    <img src='../img/sw.png'/>
                 </div>
-                <div class='card-excerpt'>
-                    $uneligne->QteLiquide mL
-                    $uneligne->prixPdt €
+                <div class='card-body'>
+                    <div class='card-title'>
+                        $uneligne->libellePdt
+                    </div>
+                    <div class='card-excerpt'>
+                        $uneligne->prixPdt €
+                    </div>
                 </div>
-            </div></div>");
+            </div>");
+    }
     //echo $uneligne->libellePdt . " " .$uneligne->prixPdt . " €" . "<br />";
 }
-echo("</div>");
 /*echo "Nb de produits : " . $enregCount . "<br />";
 //echo "Cout stockage des Nuts : " . $enregNuts->prixPdt * $enregNuts->stockPdt . " €<br />";
 echo "Produit avec stock le plus élevé : " . $enregMaxStock->libellePdt . " : " . $enregMaxStock->stockPdt ;*/
 ?>
-</main>
+</body>
 @include('footer2')
 </html>

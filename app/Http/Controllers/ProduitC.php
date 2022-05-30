@@ -14,13 +14,8 @@ class ProduitC extends Controller
         $enregAll = ProduitM::all();
 
         $catAll = CategorieM::all();
-		
-        $enregCount = ProduitM::all()->count();
 
-        $MaxStock = ProduitM::all()->max('stockPdt');
-        $enregMaxStock=ProduitM::all()->where('stockPdt',$MaxStock)->first();
-
-        return view('produitallV',['enregAll'=>$enregAll, 'catAll'=>$catAll, 'enregCount'=>$enregCount,'enregMaxStock'=>$enregMaxStock]);
+        return view('produitallV',['enregAll'=>$enregAll, 'catAll'=>$catAll]);
     }
 
     public function newp()
@@ -49,6 +44,18 @@ class ProduitC extends Controller
         $data->save();
 
         return redirect()->action('App\Http\Controllers\ProduitC@all');    
+    }
+
+    /*public function oneproduct(Request $request) {
+        $produits = ProduitM::where('Cat_id',$request->id);
+    }*/
+
+    public function products() {
+        return view('produits');
+    }
+
+    public function product() {
+        return view('produit');
     }
 
 }

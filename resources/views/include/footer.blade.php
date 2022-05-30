@@ -1,8 +1,8 @@
 <footer>
-    <div class="footer-logo">
+    <a href="."><div class="footer-logo">
         <img src="img/Th_sans_fond_bw.png"/>
         <div class="logof-text">E-tea Vape</div>
-    </div>
+    </div></a>
 
     <div class="liquidef">E-liquides</div>
     <div class="fraise">Fraise</div>

@@ -7,15 +7,19 @@
 <title>E-TEA VAPE</title>
 <style>
 
+body {
+	padding-top: 120px;
+}
+
 /*	HEADER	*/
 #header {
     background-color: #ffffff;
     position: fixed;
-	overflow: visible;
-	width: 1920px;
-	height: 118px;
-	left: 0px;
-	top: 0px;
+	  overflow: visible;
+	  width: 1920px;
+	  height: 118px;
+	  left: 0px;
+	  top: 0px;
 }
 
 .menu {
@@ -69,7 +73,6 @@
 	height: 69.551px;
 	left: 465px;
 	top: 69.225px;
-	transform: matrix(1,0,0,1,0,0);
     fill: rgba(255,255,255,1);
 }
 
@@ -78,21 +81,14 @@
 	overflow: visible;
     width: 195px;
     height: 190px;
-    left: 573px;
+    left: 570px;
     top: 0px;
     background-color: #ffffff;
 }
 
-.logo-img {
-	position: fixed;
-	overflow: visible;
-	top: 10px;
-	left: 595px;
-}
-
 .logo-text {
-    left: 615px;
-	top: 18px;
+    left: 595px;
+	top: 157px;
 	position: fixed;
 	overflow: visible;
 	width: 107px;
@@ -123,6 +119,8 @@
 	height: 49.5px;
 	left: 1365.51px;
 	top: 33.655px;
+	transform: matrix(1,0,0,1,0,0);
+    fill: rgba(112,112,112,1);
 }
 
 .person {
@@ -132,6 +130,8 @@
 	height: 47.19px;
 	left: 1460.18px;
 	top: 34.81px;
+	transform: matrix(1,0,0,1,0,0);
+    fill: rgba(112,112,112,1);
 }
 
 .shopping {
@@ -147,8 +147,9 @@
 
 /*	BODY	*/
 
+
 .presentation {
-	position: inherit;
+	position: absolute;
 	width: 1920px;
 	height: 959px;
 	left: 0px;
@@ -157,394 +158,13 @@
 	background-image: url('img/eliquid-g735595a75_1920.png')
 }
 
-.presentation-text {
-	left: 960px;
-	top: 300px;
+.select-produit {
 	position: absolute;
-	overflow: visible;
-	width: 405px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Arial Rounded MT;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 45px;
-	color: rgba(255,255,255,1);
+	left: 1500px;
 }
 
-.presentation-btn {
-	position: absolute;
-	overflow: visible;
-	width: 370px;
-	height: 90px;
-	left: 960px;
-	top: 500px;
-	fill: rgba(242,242,242,1);
-}
 
-.btn-text {
-		top: 10px;
-		position: absolute;
-		overflow: visible;
-		width: 323px;
-		white-space: nowrap;
-		text-align: center;
-		font-family: Poppins;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 25px;
-		color: rgba(22,20,20,1);
-}
 
-@-webkit-keyframes ani-mouse {
-	0% {
-	opacity: 1;
-	top: 29%;
-	}
-	15% {
-	opacity: 1;
-	top: 50%;
-	}
-	50% {
-	opacity: 0;
-	top: 50%;
-	}
-	100% {
-	opacity: 0;
-	top: 29%;
-	}
-}
-@-moz-keyframes ani-mouse {
-	0% {
-	opacity: 1;
-	top: 29%;
-	}
-	15% {
-	opacity: 1;
-	top: 50%;
-	}
-	50% {
-	opacity: 0;
-	top: 50%;
-	}
-	100% {
-	opacity: 0;
-	top: 29%;
-	}
-}
-@keyframes ani-mouse {
-	0% {
-	opacity: 1;
-	top: 29%;
-	}
-	15% {
-	opacity: 1;
-	top: 50%;
-	}
-	50% {
-	opacity: 0;
-	top: 50%;
-	}
-	100% {
-	opacity: 0;
-	top: 29%;
-	}
-}
- .scroll-btn {
-	display: block;
-	position: absolute;
-	left: 0;
-	right: 0;
-	text-align: center;
-	top: 850px
-}
-.scroll-btn > * {
-	display: inline-block;
-	line-height: 18px;
-	font-size: 13px;
-	font-weight: normal;
-	color: #7f8c8d;
-	color: #ffffff;
-	font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	letter-spacing: 2px;
-}
-.scroll-btn > *:hover,
-.scroll-btn > *:focus,
-.scroll-btn > *.active {
-	color: #ffffff;
-}
-.scroll-btn > *:hover,
-.scroll-btn > *:focus,
-.scroll-btn > *:active,
-.scroll-btn > *.active {
-	opacity: 0.8;
-	filter: alpha(opacity=80);
-}
-.scroll-btn .mouse {
-	position: relative;
-	display: block;
-	width: 35px;
-	height: 55px;
-	margin: 0 auto 20px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	border: 3px solid white;
-	border-radius: 23px;
-}
-.scroll-btn .mouse > * {
-	position: absolute;
-	display: block;
-	top: 29%;
-	left: 50%;
-	width: 8px;
-	height: 8px;
-	margin: -4px 0 0 -4px;
-	background: white;
-	border-radius: 50%;
-	-webkit-animation: ani-mouse 2.5s linear infinite;
-	-moz-animation: ani-mouse 2.5s linear infinite;
-	animation: ani-mouse 2.5s linear infinite;
-}
-
-.liquide-img {
-	position: absolute;
-	width: 387px;
-	height: 625px;
-	left: 278px;
-	top: 1157px;
-	overflow: visible;
-}
-
-.personnaliser-title {
-	left: 830px;
-	top: 1148px;
-	position: absolute;
-	overflow: visible;
-	width: 625px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Arial Rounded MT;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 80px;
-	color: rgba(0,0,0,1);
-}
-
-.personnaliser-text {
-	left: 830px;
-	top: 1475px;
-	position: absolute;
-	overflow: visible;
-	width: 833px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Poppins;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 20px;
-	color: rgba(72,74,71,1);
-}
-
-.personnaliser-btn {
-	position: absolute;
-	overflow: visible;
-	width: 260px;
-	height: 80px;
-	left: 830px;
-	top: 1702px;
-	fill: rgba(209,68,84,1);
-}
-
-.vente{
-	left: 285px;
-		top: 1872px;
-		position: absolute;
-		overflow: visible;
-		width: 456px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Arial Rounded MT;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 45px;
-		color: rgba(0,0,0,1);
-}
-
-.pdt1 {
-	position: absolute;
-		width: 407px;
-		height: 699px;
-		left: 0px;
-		top: -28px;
-		overflow: visible;
-}
-
-.pdt1-img {
-	position: absolute;
-	width: 398px;
-	height: 555px;
-	left: 9px;
-	top: 1000px;
-	overflow: visible;
-}
-
-.pdt1-titre {
-	left: 41px;
-		top: 608px;
-		position: absolute;
-		overflow: visible;
-		width: 188px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Arial Rounded MT;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 30px;
-		color: rgba(0,0,0,1);
-}
-
-.pdt1-prix {
-	left: 41px;
-		top: 665px;
-		position: absolute;
-		overflow: visible;
-		width: 107px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Arial Rounded MT;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 30px;
-		color: rgba(0,0,0,1);
-}
-
-.pdt1-style {
-	transform: translate(-267px, -1836px) matrix(1,0,0,1,299,2370) rotate(90deg);
-		transform-origin: center;
-		left: 0px;
-		top: 0px;
-		position: absolute;
-		overflow: visible;
-		width: 86px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Poppins;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 107px;
-		color: rgba(251,174,184,1);
-}
-
-.etvape-about {
-	left: 278px;
-		top: 2914px;
-		position: absolute;
-		overflow: visible;
-		width: 505px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Arial Rounded MT;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 45px;
-		color: rgba(0,0,0,1);
-}
-
-.actu {
-	left: 278px;
-		top: 3717px;
-		position: absolute;
-		overflow: visible;
-		width: 326px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Arial Rounded MT;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 45px;
-		color: rgba(0,0,0,1);
-}
-
-.avis {
-	left: 278px;
-	top: 4919px;
-	position: absolute;
-	overflow: visible;
-	width: 614px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Arial Rounded MT;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 45px;
-	color: rgba(0,0,0,1);
-}
-
-.avis-verif {
-	left: 278px;
-		top: 5049px;
-		position: absolute;
-		overflow: visible;
-		width: 170px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Arial Rounded MT;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 30px;
-		color: rgba(0,0,0,1);
-}
-
-.avis-img {
-	position: absolute;
-		width: 212px;
-		height: 111px;
-		left: 467px;
-		top: 5002px;
-		overflow: visible;
-}
-
-/*	A PROPOS */
-#img-apropos {
-	position: absolute;
-	width: 1640px;
-	height: 400px;
-	left: 140px;
-	top: 106px;
-	overflow: visible;
-	background-image: url('img/e-cigarette-1881957_1920.png')
-}
-
-#title-about {
-	left: 530px;
-	top: 586px;
-	position: absolute;
-	overflow: visible;
-	width: 875px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Arial Rounded MT;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 80px;
-	color: rgba(0,0,0,1);
-}
-/*	FIN A PROPOS	*/
-
-/*	BLOG	*/
-
-#img-blog {
-	position: absolute;
-	width: 1640px;
-	height: 400px;
-	left: 140px;
-	top: 106px;
-	overflow: visible;
-	background-image: url('img/eliquid-g735595a75_1920.png')
-}
-
-/*	FIN BLOG	*/
 
 /*	FOOTER	*/
 
@@ -568,8 +188,8 @@
 }
 
 .logof-text {
-    left: 70px;
-	top: 25px;
+    left: 60px;
+	top: 230px;
 	position: absolute;
 	overflow: visible;
 	width: 111px;
@@ -577,9 +197,9 @@
 	text-align: left;
 	font-family: Arial Rounded MT;
 	font-style: normal;
-	font-weight: bold;
+	font-weight: normal;
 	font-size: 20px;
-	color: rgba(112,112,112,1);
+	color: rgba(0,0,0,1);
 }
 
 .liquidef {
@@ -951,25 +571,73 @@
 	fill: rgba(196,48,43,1);
 }
 
+.card {
+  width: 400px; /*1*/
+  margin: 0px auto; /*2*/
+  background-color: white; /*3*/
+  box-shadow: 0px 5px 20px #999; /*4*/
+  top: 200px;
+  left: 162px;
+}
+.card a { /*5*/
+  color: #333; 
+  text-decoration: none;
+}
+.card:hover .card-image img { /*6*/
+  width: 160%;
+  filter: grayscale(0);
+}
+
+.card-image {
+  height: 250px;/*1*/
+  position: relative;/*2*/
+  overflow: hidden;/*3*/
+}
+.card-image img {
+  width: 150%;/*4*/
+    /*5 - Méthode de centrage en fonction de la taille de l'image */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: grayscale(1);/*6*/
+    /*7 - Transition */
+  transition-property: filter width; 
+  transition-duration: .3s;
+  transition-timing-function: ease;
+}
+
+.card-body {
+    text-align:center;  /*1*/
+  padding: 15px 20px; /*2*/
+  box-sizing: border-box; /*3*/
+}
+
+.card-title, .card-excerpt {
+  font-family: Poppins;
+  text-align:center;
+  text-transform:uppercase;
+  font-weight: bold;
+}
+
 </style>
 </head>
 <header id="header">
-    <a href="menu"><div class="menu">
-		<div class="menu-icon"><img src="img/align-left.png"/></div>
+    <a href="../menu"><div class="menu">
+		<div class="menu-icon"><img src="../img/align-left.png"/></div>
         <div class="menu-text">Menu</div>
     </div></a>
-
-    <a href="search"><div class="search">
-        <div class="search-icon"><img src="img/search.png"/></div>
+    <a href="../search"><div class="search">
+        <div class="search-icon"><img src="../img/search.png"/></div>
     </div></a>
-    <a href=".">
+    <a href="../">
         <div class="logo">
-            <div class="logo-img"><img src="img/Th_sans_fond.png"/></div>
+            <img src="../img/Th_sans_fond.png"/>
             <div class="logo-text">E-tea Vape</div>
         </div>
     </a>
-    <a href="contact"><div class="location"><img src="img/pin.png"/></div>
-    <div class="call"><img src="img/call.png"/></div></a>
-    <div class="person"><img src="img/person.png"/></div>
-    <div class="shopping"><img src="img/shopping.png"/></div>
+    <a href="../contact"><div class="location"><img src="../img/map.png"/></div>
+    <div class="call"><img src="../img/phone.png"/></div></a>
+    <div class="person"><img src="../img/user.png"/></div>
+    <div class="shopping"><img src="../img/shopping.png"/></div>
 </header>

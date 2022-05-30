@@ -13,7 +13,7 @@ class LiquideM extends Model
 
     protected $primaryKey = 'idPdtP';  // Nom de la CP. Obligatoire si différente de id
 
-    protected $fillable=['goutPdtP', 'qteGout', 'qteGout','qteVapeur', 'doseNicotine', 'qteLiquideP', 'pointFidel'];
+    protected $fillable=['qteGout','qteVapeur', 'doseNicotine', 'qteLiquideP'];
     // Liste des champs modifiables par l'application  obligatoire.
 
     public $timestamps = false; 

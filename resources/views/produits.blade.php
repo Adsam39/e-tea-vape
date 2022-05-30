@@ -4,16 +4,16 @@
 <meta charset="utf-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>blog</title>
+<title>Accueil produits</title>
 <style id="applicationStylesheet" type="text/css">
 	.mediaViewInfo {
-		--web-view-name: blog;
-		--web-view-id: blog;
+		--web-view-name: Accueil produits;
+		--web-view-id: Accueil_produits;
 		--web-scale-on-resize: true;
 		--web-enable-deep-linking: true;
 	}
 	:root {
-		--web-view-ids: blog;
+		--web-view-ids: Accueil_produits;
 	}
 	* {
 		margin: 0;
@@ -21,496 +21,22 @@
 		box-sizing: border-box;
 		border: none;
 	}
-	#blog {
+	#Accueil_produits {
 		position: absolute;
 		width: 1920px;
-		height: 2685px;
+		height: 3049px;
 		background-color: rgba(255,255,255,1);
 		overflow: hidden;
-		--web-view-name: blog;
-		--web-view-id: blog;
+		--web-view-name: Accueil produits;
+		--web-view-id: Accueil_produits;
 		--web-scale-on-resize: true;
 		--web-enable-deep-linking: true;
 	}
-	#eliquid-g735595a75_1920 {
-		position: absolute;
-		width: 1640px;
-		height: 400px;
-		left: 140px;
-		top: 106px;
-		overflow: visible;
-	}
-	#eteablog {
-		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-		left: 1106px;
-		top: 262px;
-		position: absolute;
-		overflow: visible;
-		width: 242px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Arial Rounded MT;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 50px;
-		color: rgba(255,255,255,1);
-	}
-	#Rectangle_97 {
-		fill: rgba(255,255,255,1);
-		stroke: rgba(112,112,112,1);
-		stroke-width: 1px;
-		stroke-linejoin: miter;
-		stroke-linecap: butt;
-		stroke-miterlimit: 4;
-		shape-rendering: auto;
-	}
-	.Rectangle_97 {
-		position: absolute;
-		overflow: visible;
-		width: 812px;
-		height: 529px;
-		left: 968px;
-		top: 2040px;
-	}
-	#Rectangle_98 {
-		fill: rgba(255,255,255,1);
-		stroke: rgba(112,112,112,1);
-		stroke-width: 1px;
-		stroke-linejoin: miter;
-		stroke-linecap: butt;
-		stroke-miterlimit: 4;
-		shape-rendering: auto;
-	}
-	.Rectangle_98 {
-		position: absolute;
-		overflow: visible;
-		width: 812px;
-		height: 529px;
-		left: 140px;
-		top: 2040px;
-	}
-	#Dcouvrez_toutes_lactualit_et_l {
-		left: 281px;
-		top: 584px;
-		position: absolute;
-		overflow: visible;
-		width: 962px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Arial Rounded MT;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 45px;
-		color: rgba(22,20,20,1);
-	}
-	#Rectangle_99 {
-		fill: rgba(251,174,184,1);
-	}
-	.Rectangle_99 {
-		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-		position: absolute;
-		overflow: visible;
-		width: 278px;
-		height: 68px;
-		left: 416px;
-		top: 1955px;
-	}
-	#Conseils {
-		left: 492px;
-		top: 1963px;
-		position: absolute;
-		overflow: visible;
-		width: 106px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Poppins;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 25px;
-		color: rgba(22,20,20,1);
-	}
-	#Rectangle_100 {
-		fill: rgba(120,167,124,1);
-	}
-	.Rectangle_100 {
-		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-		position: absolute;
-		overflow: visible;
-		width: 278px;
-		height: 68px;
-		left: 692px;
-		top: 1955px;
-	}
-	#Actualit {
-		left: 765px;
-		top: 1963px;
-		position: absolute;
-		overflow: visible;
-		width: 112px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Poppins;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 25px;
-		color: rgba(22,20,20,1);
-	}
-	#Rectangle_101 {
-		fill: rgba(255,255,255,1);
-	}
-	.Rectangle_101 {
-		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-		position: absolute;
-		overflow: visible;
-		width: 448px;
-		height: 68px;
-		left: 1212px;
-		top: 1955px;
-	}
-	#Rechercher_un_article {
-		left: 1242px;
-		top: 1966px;
-		position: absolute;
-		overflow: visible;
-		width: 214px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Poppins;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 20px;
-		color: rgba(112,112,112,1);
-	}
-	#Ellipse_34 {
-		fill: rgba(209,68,84,1);
-	}
-	.Ellipse_34 {
-		position: absolute;
-		overflow: visible;
-		width: 50px;
-		height: 50px;
-		left: 1592px;
-		top: 1955px;
-	}
-	#Rectangle_103 {
-		fill: transparent;
-		stroke: rgba(209,68,84,1);
-		stroke-width: 1px;
-		stroke-linejoin: miter;
-		stroke-linecap: butt;
-		stroke-miterlimit: 4;
-		shape-rendering: auto;
-	}
-	.Rectangle_103 {
-		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-		position: absolute;
-		overflow: visible;
-		width: 140px;
-		height: 68px;
-		left: 278px;
-		top: 1954px;
-	}
-	#Tous {
-		left: 309px;
-		top: 1962px;
-		position: absolute;
-		overflow: visible;
-		width: 60px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Poppins;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 25px;
-		color: rgba(22,20,20,1);
-	}
-	#Actus_et_conseils__la_une_ {
-		left: 278px;
-		top: 941px;
-		position: absolute;
-		overflow: visible;
-		width: 581px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Arial Rounded MT;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 45px;
-		color: rgba(0,0,0,1);
-	}
-	#Lorem_ipsum_dolor_sit_amet_con {
-		left: 282px;
-		top: 733px;
-		position: absolute;
-		overflow: visible;
-		width: 1360px;
-		white-space: nowrap;
-		line-height: 28px;
-		margin-top: -4px;
-		text-align: left;
-		font-family: Poppins;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 20px;
-		color: rgba(72,74,71,1);
-		letter-spacing: 0.005px;
-	}
-	#Rectangle_104 {
-		fill: rgba(255,255,255,1);
-		stroke: rgba(112,112,112,1);
-		stroke-width: 1px;
-		stroke-linejoin: miter;
-		stroke-linecap: butt;
-		stroke-miterlimit: 4;
-		shape-rendering: auto;
-	}
-	.Rectangle_104 {
-		position: absolute;
-		overflow: visible;
-		width: 1364px;
-		height: 582px;
-		left: 278px;
-		top: 1037px;
-	}
-	#Grille_de_rptition_8 {
-		position: absolute;
-		width: 62px;
-		height: 16px;
-		left: 956px;
-		top: 1734px;
-		overflow: hidden;
-	}
-	#Group {
-		position: absolute;
-		width: 16px;
-		height: 16px;
-		left: 0px;
-		top: 0px;
-		overflow: visible;
-	}
-	#Ellipse_3 {
-		fill: rgba(255,255,255,1);
-		stroke: rgba(112,112,112,1);
-		stroke-width: 2px;
-		stroke-linejoin: miter;
-		stroke-linecap: butt;
-		stroke-miterlimit: 4;
-		shape-rendering: auto;
-	}
-	.Ellipse_3 {
-		position: absolute;
-		overflow: visible;
-		width: 16px;
-		height: 16px;
-		left: 0px;
-		top: 0px;
-	}
-	#Group_bu {
-		position: absolute;
-		width: 16px;
-		height: 16px;
-		left: 36px;
-		top: 0px;
-		overflow: visible;
-	}
-	#Ellipse_3_bv {
-		fill: rgba(255,255,255,1);
-		stroke: rgba(112,112,112,1);
-		stroke-width: 2px;
-		stroke-linejoin: miter;
-		stroke-linecap: butt;
-		stroke-miterlimit: 4;
-		shape-rendering: auto;
-	}
-	.Ellipse_3_bv {
-		position: absolute;
-		overflow: visible;
-		width: 16px;
-		height: 16px;
-		left: 0px;
-		top: 0px;
-	}
-	#Ellipse_35 {
-		fill: transparent;
-		stroke: rgba(209,68,84,1);
-		stroke-width: 4px;
-		stroke-linejoin: miter;
-		stroke-linecap: butt;
-		stroke-miterlimit: 4;
-		shape-rendering: auto;
-	}
-	.Ellipse_35 {
-		position: absolute;
-		overflow: visible;
-		width: 16px;
-		height: 16px;
-		left: 919px;
-		top: 1734px;
-	}
-	#Trac_6 {
-		fill: rgba(255,255,255,1);
-	}
-	.Trac_6 {
-		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.051));
-		overflow: visible;
-		position: absolute;
-		width: 1106px;
-		height: 160px;
-		left: 416px;
-		top: 1548px;
-		transform: matrix(1,0,0,1,0,0);
-	}
-	#Titre {
-		left: 926px;
-		top: 1630px;
-		position: absolute;
-		overflow: visible;
-		width: 69px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Arial Rounded MT;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 30px;
-		color: rgba(0,0,0,1);
-	}
-	#catgorie_-_18022022 {
-		left: 809px;
-		top: 1569px;
-		position: absolute;
-		overflow: visible;
-		width: 285px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Poppins;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 25px;
-		color: rgba(112,112,112,1);
-	}
-	#Dcouvrez_tous_nos_articles {
-		left: 278px;
-		top: 1840px;
-		position: absolute;
-		overflow: visible;
-		width: 608px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Arial Rounded MT;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 45px;
-		color: rgba(0,0,0,1);
-	}
-	#Trac_7 {
-		fill: rgba(255,255,255,1);
-	}
-	.Trac_7 {
-		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.051));
-		overflow: visible;
-		position: absolute;
-		width: 729.494px;
-		height: 160px;
-		left: 191.506px;
-		top: 2485px;
-		transform: matrix(1,0,0,1,0,0);
-	}
-	#Titre_b {
-		left: 497px;
-		top: 2578px;
-		position: absolute;
-		overflow: visible;
-		width: 69px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Arial Rounded MT;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 30px;
-		color: rgba(0,0,0,1);
-	}
-	#Rectangle_105 {
-		fill: rgba(251,174,184,1);
-	}
-	.Rectangle_105 {
-		position: absolute;
-		overflow: visible;
-		width: 141px;
-		height: 45px;
-		left: 369px;
-		top: 2498px;
-	}
-	#Conseils____18022022 {
-		left: 387.701px;
-		top: 2506px;
-		position: absolute;
-		overflow: visible;
-		width: 269px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Poppins;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 25px;
-		color: rgba(22,20,20,1);
-	}
-	#Trac_8 {
-		fill: rgba(255,255,255,1);
-	}
-	.Trac_8 {
-		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.051));
-		overflow: visible;
-		position: absolute;
-		width: 729.494px;
-		height: 160px;
-		left: 1021.506px;
-		top: 2485px;
-		transform: matrix(1,0,0,1,0,0);
-	}
-	#Titre_ca {
-		left: 1327px;
-		top: 2578px;
-		position: absolute;
-		overflow: visible;
-		width: 69px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Arial Rounded MT;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 30px;
-		color: rgba(0,0,0,1);
-	}
-	#Rectangle_106 {
-		fill: rgba(120,167,124,1);
-	}
-	.Rectangle_106 {
-		position: absolute;
-		overflow: visible;
-		width: 141px;
-		height: 45px;
-		left: 1199px;
-		top: 2498px;
-	}
-	#Conseils____18022022_b {
-		left: 1215.701px;
-		top: 2504px;
-		position: absolute;
-		overflow: visible;
-		width: 269px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: Poppins;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 25px;
-		color: rgba(22,20,20,1);
-	}
-	#Groupe_10 {
+	#Groupe_26 {
 		position: absolute;
 		width: 67px;
 		height: 29px;
-		left: 352px;
+		left: 349px;
 		top: 90px;
 		overflow: visible;
 	}
@@ -568,44 +94,44 @@
 		top: 14px;
 		transform: matrix(1,0,0,1,0,0);
 	}
-	#Rectangle_147 {
+	#Rectangle_209 {
 		fill: rgba(255,255,255,1);
 	}
-	.Rectangle_147 {
+	.Rectangle_209 {
 		position: absolute;
 		overflow: visible;
 		width: 1920px;
 		height: 118px;
-		left: 0px;
+		left: -3px;
 		top: 0px;
 	}
-	#Rectangle_148 {
+	#Rectangle_210 {
 		fill: rgba(209,68,84,1);
 	}
-	.Rectangle_148 {
+	.Rectangle_210 {
 		position: absolute;
 		overflow: visible;
 		width: 154px;
 		height: 190px;
-		left: 265px;
+		left: 262px;
 		top: 1px;
 	}
-	#Rectangle_149 {
+	#Rectangle_211 {
 		fill: rgba(255,255,255,1);
 	}
-	.Rectangle_149 {
+	.Rectangle_211 {
 		position: absolute;
 		overflow: visible;
 		width: 195px;
 		height: 190px;
-		left: 557px;
+		left: 554px;
 		top: 4px;
 	}
 	#Th_sans_fond {
 		position: absolute;
 		width: 151px;
 		height: 151px;
-		left: 579px;
+		left: 576px;
 		top: 1px;
 		overflow: visible;
 	}
@@ -617,7 +143,7 @@
 		position: absolute;
 		width: 43.82px;
 		height: 47.19px;
-		left: 1463.18px;
+		left: 1460.18px;
 		top: 38.81px;
 		transform: matrix(1,0,0,1,0,0);
 	}
@@ -629,7 +155,7 @@
 		position: absolute;
 		width: 35.357px;
 		height: 49.5px;
-		left: 1287.972px;
+		left: 1284.973px;
 		top: 37.81px;
 		transform: matrix(1,0,0,1,0,0);
 	}
@@ -639,9 +165,9 @@
 	.call {
 		overflow: visible;
 		position: absolute;
-		width: 49.491px;
+		width: 49.49px;
 		height: 49.5px;
-		left: 1368.509px;
+		left: 1365.508px;
 		top: 37.655px;
 		transform: matrix(1,0,0,1,0,0);
 	}
@@ -653,11 +179,11 @@
 		position: absolute;
 		width: 37.752px;
 		height: 47.19px;
-		left: 1607.248px;
+		left: 1604.248px;
 		top: 39.966px;
 		transform: matrix(1,0,0,1,0,0);
 	}
-	#Rectangle_150 {
+	#Rectangle_212 {
 		fill: rgba(209,68,84,1);
 		stroke: rgba(255,255,255,1);
 		stroke-width: 1px;
@@ -666,16 +192,16 @@
 		stroke-miterlimit: 4;
 		shape-rendering: auto;
 	}
-	.Rectangle_150 {
+	.Rectangle_212 {
 		position: absolute;
 		overflow: visible;
 		width: 138px;
 		height: 192px;
-		left: 419px;
+		left: 416px;
 		top: 0px;
 	}
 	#n_ {
-		left: 1622px;
+		left: 1619px;
 		top: 54px;
 		position: absolute;
 		overflow: visible;
@@ -688,15 +214,15 @@
 		font-size: 25px;
 		color: rgba(209,68,84,1);
 	}
-	#Groupe_11 {
+	#Groupe_27 {
 		position: absolute;
 		width: 84px;
 		height: 36px;
-		left: 300px;
+		left: 297px;
 		top: 77px;
 		overflow: visible;
 	}
-	#Ligne_9_co {
+	#Ligne_9_bv {
 		fill: transparent;
 		stroke: rgba(255,255,255,1);
 		stroke-width: 5px;
@@ -705,7 +231,7 @@
 		stroke-miterlimit: 4;
 		shape-rendering: auto;
 	}
-	.Ligne_9_co {
+	.Ligne_9_bv {
 		overflow: visible;
 		position: absolute;
 		width: 70px;
@@ -714,7 +240,7 @@
 		top: 36px;
 		transform: matrix(1,0,0,1,0,0);
 	}
-	#Ligne_10_cp {
+	#Ligne_10_bw {
 		fill: transparent;
 		stroke: rgba(255,255,255,1);
 		stroke-width: 5px;
@@ -723,7 +249,7 @@
 		stroke-miterlimit: 4;
 		shape-rendering: auto;
 	}
-	.Ligne_10_cp {
+	.Ligne_10_bw {
 		overflow: visible;
 		position: absolute;
 		width: 70px;
@@ -732,7 +258,7 @@
 		top: 0px;
 		transform: matrix(1,0,0,1,0,0);
 	}
-	#Ligne_11_cq {
+	#Ligne_11_bx {
 		fill: transparent;
 		stroke: rgba(255,255,255,1);
 		stroke-width: 5px;
@@ -741,7 +267,7 @@
 		stroke-miterlimit: 4;
 		shape-rendering: auto;
 	}
-	.Ligne_11_cq {
+	.Ligne_11_bx {
 		overflow: visible;
 		position: absolute;
 		width: 70px;
@@ -758,12 +284,12 @@
 		position: absolute;
 		width: 69.551px;
 		height: 69.551px;
-		left: 446.449px;
+		left: 443.449px;
 		top: 70.225px;
 		transform: matrix(1,0,0,1,0,0);
 	}
 	#E-tea_Vape {
-		left: 599px;
+		left: 596px;
 		top: 155px;
 		position: absolute;
 		overflow: visible;
@@ -777,7 +303,7 @@
 		color: rgba(112,112,112,1);
 	}
 	#Menu {
-		left: 303px;
+		left: 300px;
 		top: 122px;
 		position: absolute;
 		overflow: visible;
@@ -790,12 +316,12 @@
 		font-size: 25px;
 		color: rgba(255,255,255,1);
 	}
-	#Accueil_Blog {
+	#Accueil_Nos_produits_Eliquides {
 		left: 334.113px;
-		top: 531px;
+		top: 225px;
 		position: absolute;
 		overflow: visible;
-		width: 132px;
+		width: 317px;
 		white-space: nowrap;
 		text-align: left;
 		font-family: Poppins;
@@ -809,7 +335,7 @@
 		width: 41.113px;
 		height: 43px;
 		left: 278px;
-		top: 528px;
+		top: 222px;
 		overflow: visible;
 	}
 	#Trac_1 {
@@ -844,17 +370,569 @@
 		font-size: 30px;
 		color: rgba(0,0,0,1);
 	}
-	#search_cy {
+	#Rectangle_220 {
 		fill: rgba(255,255,255,1);
+		stroke: rgba(22,20,20,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
 	}
-	.search_cy {
-		overflow: visible;
+	.Rectangle_220 {
 		position: absolute;
-		width: 23.583px;
-		height: 23.583px;
-		left: 1605.208px;
-		top: 1968.208px;
-		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		width: 205px;
+		height: 80px;
+		left: 1244px;
+		top: 253px;
+	}
+	#Rectangle_221 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(22,20,20,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_221 {
+		position: absolute;
+		overflow: visible;
+		width: 138px;
+		height: 80px;
+		left: 1504px;
+		top: 253px;
+	}
+	#Filtrer_par {
+		left: 1286px;
+		top: 276px;
+		position: absolute;
+		overflow: visible;
+		width: 123px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(72,74,71,1);
+	}
+	#Trier_par {
+		left: 1520px;
+		top: 276px;
+		position: absolute;
+		overflow: visible;
+		width: 108px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(72,74,71,1);
+	}
+	#Rectangle_222 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_222 {
+		position: absolute;
+		overflow: visible;
+		width: 414px;
+		height: 539px;
+		left: 278px;
+		top: 384px;
+	}
+	#Rectangle_223 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_223 {
+		position: absolute;
+		overflow: visible;
+		width: 414px;
+		height: 539px;
+		left: 753px;
+		top: 384px;
+	}
+	#Rectangle_224 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_224 {
+		position: absolute;
+		overflow: visible;
+		width: 414px;
+		height: 539px;
+		left: 1228px;
+		top: 384px;
+	}
+	#Eliquide_Fraise_50ml {
+		left: 278px;
+		top: 938px;
+		position: absolute;
+		overflow: visible;
+		width: 202px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#n_0_articles_trouvs_pour_Eliqu {
+		left: 754px;
+		top: 276px;
+		position: absolute;
+		overflow: visible;
+		width: 414px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(72,74,71,1);
+	}
+	#n_500 {
+		left: 628px;
+		top: 938px;
+		position: absolute;
+		overflow: visible;
+		width: 65px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Eliquide_Fraise_50ml_cf {
+		left: 753px;
+		top: 938px;
+		position: absolute;
+		overflow: visible;
+		width: 202px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#n_500_cg {
+		left: 1103px;
+		top: 938px;
+		position: absolute;
+		overflow: visible;
+		width: 65px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Eliquide_Fraise_50ml_ch {
+		left: 1228px;
+		top: 938px;
+		position: absolute;
+		overflow: visible;
+		width: 202px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#n_500_ci {
+		left: 1578px;
+		top: 938px;
+		position: absolute;
+		overflow: visible;
+		width: 65px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Rectangle_225 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_225 {
+		position: absolute;
+		overflow: visible;
+		width: 414px;
+		height: 582px;
+		left: 278px;
+		top: 1016px;
+	}
+	#Rectangle_226 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_226 {
+		position: absolute;
+		overflow: visible;
+		width: 414px;
+		height: 539px;
+		left: 753px;
+		top: 1016px;
+	}
+	#Rectangle_227 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_227 {
+		position: absolute;
+		overflow: visible;
+		width: 414px;
+		height: 539px;
+		left: 1228px;
+		top: 1016px;
+	}
+	#Eliquide_Fraise_50ml_cm {
+		left: 753px;
+		top: 1570px;
+		position: absolute;
+		overflow: visible;
+		width: 202px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#n_500_cn {
+		left: 1103px;
+		top: 1570px;
+		position: absolute;
+		overflow: visible;
+		width: 65px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Eliquide_Fraise_50ml_co {
+		left: 1228px;
+		top: 1570px;
+		position: absolute;
+		overflow: visible;
+		width: 202px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#n_500_cp {
+		left: 1578px;
+		top: 1570px;
+		position: absolute;
+		overflow: visible;
+		width: 65px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Rectangle_230 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_230 {
+		position: absolute;
+		overflow: visible;
+		width: 414px;
+		height: 539px;
+		left: 278px;
+		top: 1648px;
+	}
+	#Rectangle_231 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_231 {
+		position: absolute;
+		overflow: visible;
+		width: 414px;
+		height: 539px;
+		left: 753px;
+		top: 1648px;
+	}
+	#Rectangle_232 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_232 {
+		position: absolute;
+		overflow: visible;
+		width: 414px;
+		height: 539px;
+		left: 1228px;
+		top: 1648px;
+	}
+	#Eliquide_Fraise_50ml_ct {
+		left: 278px;
+		top: 2202px;
+		position: absolute;
+		overflow: visible;
+		width: 202px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#n_500_cu {
+		left: 628px;
+		top: 2202px;
+		position: absolute;
+		overflow: visible;
+		width: 65px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Eliquide_Fraise_50ml_cv {
+		left: 753px;
+		top: 2202px;
+		position: absolute;
+		overflow: visible;
+		width: 202px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#n_500_cw {
+		left: 1103px;
+		top: 2202px;
+		position: absolute;
+		overflow: visible;
+		width: 65px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Eliquide_Fraise_50ml_cx {
+		left: 1228px;
+		top: 2202px;
+		position: absolute;
+		overflow: visible;
+		width: 202px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#n_500_cy {
+		left: 1578px;
+		top: 2202px;
+		position: absolute;
+		overflow: visible;
+		width: 65px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Visuel_pour_une_promo_ou_autre {
+		left: 311px;
+		top: 1279px;
+		position: absolute;
+		overflow: visible;
+		width: 318px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Rectangle_126 {
+		fill: rgba(209,68,84,1);
+	}
+	.Rectangle_126 {
+		position: absolute;
+		overflow: visible;
+		width: 260px;
+		height: 80px;
+		left: 830px;
+		top: 2632px;
+	}
+	#Composer_ {
+		left: 886px;
+		top: 2655px;
+		position: absolute;
+		overflow: visible;
+		width: 149px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Rectangle_113 {
+		fill: rgba(242,242,242,1);
+	}
+	.Rectangle_113 {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 269px;
+		left: 0px;
+		top: 2541px;
+	}
+	#kawaii-2995008_1280 {
+		position: absolute;
+		width: 387px;
+		height: 625px;
+		left: 262px;
+		top: 2320px;
+		overflow: visible;
+	}
+	#Si_vous_ne_trouvez_pas_votre_b {
+		left: 692px;
+		top: 2652px;
+		position: absolute;
+		overflow: visible;
+		width: 864px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+	}
+	#Rectangle_126_c {
+		fill: rgba(209,68,84,1);
+	}
+	.Rectangle_126_c {
+		position: absolute;
+		overflow: visible;
+		width: 260px;
+		height: 80px;
+		left: 1244px;
+		top: 2780px;
+	}
+	#Composer__c {
+		left: 1300px;
+		top: 2803px;
+		position: absolute;
+		overflow: visible;
+		width: 140px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Vous_ne_trouvez_pas_votre_bonh {
+		left: 692px;
+		top: 2580px;
+		position: absolute;
+		overflow: visible;
+		width: 799px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Arial Rounded MT;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 45px;
+		color: rgba(0,0,0,1);
 	}
 </style>
 <script id="applicationScript">
@@ -3769,125 +3847,8 @@ window.application = new Application();
 </script>
 </head>
 <body>
-<div id="blog">
-	<img id="eliquid-g735595a75_1920" src="eliquid-g735595a75_1920.png" srcset="eliquid-g735595a75_1920.png 1x, eliquid-g735595a75_1920@2x.png 2x">
-		
-	<div id="eteablog">
-		<span>#eteablog</span>
-	</div>
-	<svg class="Rectangle_97">
-		<rect id="Rectangle_97" rx="0" ry="0" x="0" y="0" width="812" height="529">
-		</rect>
-	</svg>
-	<svg class="Rectangle_98">
-		<rect id="Rectangle_98" rx="0" ry="0" x="0" y="0" width="812" height="529">
-		</rect>
-	</svg>
-	<div id="Dcouvrez_toutes_lactualit_et_l">
-		<span>Découvrez toutes l'actualité et les meilleurs <br/>conseils de vape !</span>
-	</div>
-	<svg class="Rectangle_99">
-		<rect id="Rectangle_99" rx="25" ry="25" x="0" y="0" width="260" height="50">
-		</rect>
-	</svg>
-	<div id="Conseils">
-		<span>Conseils</span>
-	</div>
-	<svg class="Rectangle_100">
-		<rect id="Rectangle_100" rx="25" ry="25" x="0" y="0" width="260" height="50">
-		</rect>
-	</svg>
-	<div id="Actualit">
-		<span>Actualité</span>
-	</div>
-	<svg class="Rectangle_101">
-		<rect id="Rectangle_101" rx="10" ry="10" x="0" y="0" width="430" height="50">
-		</rect>
-	</svg>
-	<div id="Rechercher_un_article">
-		<span>Rechercher un article</span>
-	</div>
-	<svg class="Ellipse_34">
-		<ellipse id="Ellipse_34" rx="25" ry="25" cx="25" cy="25">
-		</ellipse>
-	</svg>
-	<svg class="Rectangle_103">
-		<rect id="Rectangle_103" rx="25" ry="25" x="0" y="0" width="122" height="50">
-		</rect>
-	</svg>
-	<div id="Tous">
-		<span>Tous</span>
-	</div>
-	<div id="Actus_et_conseils__la_une_">
-		<span>Actus et conseils à la une !</span>
-	</div>
-	<div id="Lorem_ipsum_dolor_sit_amet_con">
-		<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br/>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in <br/>reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa <br/>qui officia deserunt mollit anim id est laborum</span>
-	</div>
-	<svg class="Rectangle_104">
-		<rect id="Rectangle_104" rx="0" ry="0" x="0" y="0" width="1364" height="582">
-		</rect>
-	</svg>
-	<div id="Grille_de_rptition_8">
-		<div id="Group" class="">
-			<svg class="Ellipse_3">
-				<ellipse id="Ellipse_3" rx="8" ry="8" cx="8" cy="8">
-				</ellipse>
-			</svg>
-		</div>
-		<div id="Group_bu" class="">
-			<svg class="Ellipse_3_bv">
-				<ellipse id="Ellipse_3_bv" rx="8" ry="8" cx="8" cy="8">
-				</ellipse>
-			</svg>
-		</div>
-	</div>
-	<svg class="Ellipse_35">
-		<ellipse id="Ellipse_35" rx="8" ry="8" cx="8" cy="8">
-		</ellipse>
-	</svg>
-	<svg class="Trac_6" viewBox="0 0 1088 142">
-		<path id="Trac_6" d="M 16.14243316650391 0 L 1071.857421875 0 C 1080.772705078125 0 1088 4.477152347564697 1088 10 L 1088 132 C 1088 137.5228424072266 1080.772705078125 142 1071.857421875 142 L 16.14243316650391 142 C 7.227213382720947 142 0 137.5228424072266 0 132 L 0 10 C 0 4.477152347564697 7.227213382720947 0 16.14243316650391 0 Z">
-		</path>
-	</svg>
-	<div id="Titre">
-		<span>Titre</span>
-	</div>
-	<div id="catgorie_-_18022022">
-		<span>catégorie - 18/02/2022</span>
-	</div>
-	<div id="Dcouvrez_tous_nos_articles">
-		<span>Découvrez tous nos articles</span>
-	</div>
-	<svg class="Trac_7" viewBox="0 0 711.494 142">
-		<path id="Trac_7" d="M 10.55629348754883 0 L 700.937744140625 0 C 706.7678833007812 0 711.494140625 4.477152347564697 711.494140625 10 L 711.494140625 132 C 711.494140625 137.5228424072266 706.7678833007812 142 700.937744140625 142 L 10.55629348754883 142 C 4.726212978363037 142 0 137.5228424072266 0 132 L 0 10 C 0 4.477152347564697 4.726212978363037 0 10.55629348754883 0 Z">
-		</path>
-	</svg>
-	<div id="Titre_b">
-		<span>Titre</span>
-	</div>
-	<svg class="Rectangle_105">
-		<rect id="Rectangle_105" rx="22.5" ry="22.5" x="0" y="0" width="141" height="45">
-		</rect>
-	</svg>
-	<div id="Conseils____18022022">
-		<span>Conseils    18/02/2022</span>
-	</div>
-	<svg class="Trac_8" viewBox="0 0 711.494 142">
-		<path id="Trac_8" d="M 10.55629348754883 0 L 700.937744140625 0 C 706.7678833007812 0 711.494140625 4.477152347564697 711.494140625 10 L 711.494140625 132 C 711.494140625 137.5228424072266 706.7678833007812 142 700.937744140625 142 L 10.55629348754883 142 C 4.726212978363037 142 0 137.5228424072266 0 132 L 0 10 C 0 4.477152347564697 4.726212978363037 0 10.55629348754883 0 Z">
-		</path>
-	</svg>
-	<div id="Titre_ca">
-		<span>Titre</span>
-	</div>
-	<svg class="Rectangle_106">
-		<rect id="Rectangle_106" rx="22.5" ry="22.5" x="0" y="0" width="141" height="45">
-		</rect>
-	</svg>
-	<div id="Conseils____18022022_b">
-		<span>Conseils    18/02/2022</span>
-	</div>
-	<div id="Groupe_10">
+<div id="Accueil_produits">
+	<div id="Groupe_26">
 		<svg class="Ligne_9" viewBox="0 0 56 5">
 			<path id="Ligne_9" d="M 0 0 L 56 0">
 			</path>
@@ -3901,19 +3862,19 @@ window.application = new Application();
 			</path>
 		</svg>
 	</div>
-	<svg class="Rectangle_147">
-		<rect id="Rectangle_147" rx="0" ry="0" x="0" y="0" width="1920" height="118">
+	<svg class="Rectangle_209">
+		<rect id="Rectangle_209" rx="0" ry="0" x="0" y="0" width="1920" height="118">
 		</rect>
 	</svg>
-	<svg class="Rectangle_148">
-		<rect id="Rectangle_148" rx="0" ry="0" x="0" y="0" width="154" height="190">
+	<svg class="Rectangle_210">
+		<rect id="Rectangle_210" rx="0" ry="0" x="0" y="0" width="154" height="190">
 		</rect>
 	</svg>
-	<svg class="Rectangle_149">
-		<rect id="Rectangle_149" rx="0" ry="0" x="0" y="0" width="195" height="190">
+	<svg class="Rectangle_211">
+		<rect id="Rectangle_211" rx="0" ry="0" x="0" y="0" width="195" height="190">
 		</rect>
 	</svg>
-	<img id="Th_sans_fond" src="Th_sans_fond.png" srcset="Th_sans_fond.png 1x, Th_sans_fond@2x.png 2x">
+	<img id="Th_sans_fond" src="img/Th_sans_fond.png">
 		
 	<svg class="person" viewBox="47.994 32 43.82 47.19">
 		<path id="person" d="M 77.97700500488281 35.4317626953125 C 75.92720794677734 33.21870803833008 73.06424713134766 32 69.90423583984375 32 C 66.72738647460938 32 63.85494232177734 33.21133422851562 61.81463241577148 35.41069793701172 C 59.75220489501953 37.63428497314453 58.74732208251953 40.65630340576172 58.98326873779297 43.91953277587891 C 59.45095062255859 50.35751342773438 64.35001373291016 55.59469223022461 69.90423583984375 55.59469223022461 C 75.45847320556641 55.59469223022461 80.34910583496094 50.35856628417969 80.82415771484375 43.92163848876953 C 81.06326293945312 40.68790435791016 80.05206298828125 37.67220306396484 77.97699737548828 35.4317626953125 Z M 88.44293212890625 79.18938446044922 L 51.36555480957031 79.18938446044922 C 50.38272476196289 79.20216369628906 49.44641876220703 78.77154541015625 48.81648635864258 78.01702117919922 C 48.13182067871094 77.19858551025391 47.8558464050293 76.08099365234375 48.0601921081543 74.95076751708984 C 48.9492073059082 70.01905822753906 51.72369003295898 65.87628936767578 56.08449554443359 62.96803283691406 C 59.95865631103516 60.38630676269531 64.86614227294922 58.96536254882812 69.90423583984375 58.96536254882812 C 74.94233703613281 58.96536254882812 79.84982299804688 60.38736724853516 83.72399139404297 62.96803283691406 C 88.08479309082031 65.87523651123047 90.85928344726562 70.01799774169922 91.748291015625 74.94970703125 C 91.95263671875 76.07994079589844 91.67666625976562 77.19752502441406 90.99200439453125 78.01596832275391 C 90.36227416992188 78.77088165283203 89.42593383789062 79.20191192626953 88.44293212890625 79.18938446044922 Z">
@@ -3931,24 +3892,24 @@ window.application = new Application();
 		<path id="shopping_bag_FILL0_wght400_GRA" d="M 11.53922462463379 51.18966293334961 C 10.59543132781982 51.18966293334961 9.769612312316895 50.83573913574219 9.061766624450684 50.12789535522461 C 8.353922843933105 49.42005157470703 8 48.59423065185547 8 47.65043640136719 L 8 16.97715759277344 C 8 16.03336334228516 8.353922843933105 15.20754337310791 9.061766624450684 14.49969863891602 C 9.769612312316895 13.79185485839844 10.59543132781982 13.43793201446533 11.53922462463379 13.43793201446533 L 18.02780342102051 13.43793201446533 L 18.02780342102051 12.84806156158447 C 18.02780342102051 10.37060356140137 18.88311576843262 8.27656364440918 20.5937385559082 6.565937519073486 C 22.30436706542969 4.855312347412109 24.39840698242188 4 26.87586402893066 4 C 29.35332107543945 4 31.44736099243164 4.855312347412109 33.15798950195312 6.565937519073486 C 34.86861419677734 8.27656364440918 35.72392654418945 10.37060356140137 35.72392654418945 12.84806156158447 L 35.72392654418945 13.43793201446533 L 42.21250534057617 13.43793201446533 C 43.15629577636719 13.43793201446533 43.98212051391602 13.79185485839844 44.68996047973633 14.49969863891602 C 45.39780807495117 15.20754337310791 45.75172805786133 16.03336334228516 45.75172805786133 16.97715759277344 L 45.75172805786133 47.65043640136719 C 45.75172805786133 48.59423065185547 45.39780807495117 49.42005157470703 44.68996047973633 50.12789535522461 C 43.98212051391602 50.83573913574219 43.15629577636719 51.18966293334961 42.21250534057617 51.18966293334961 L 11.53922462463379 51.18966293334961 Z M 21.5670280456543 12.84806156158447 L 21.5670280456543 13.43793201446533 L 32.18470001220703 13.43793201446533 L 32.18470001220703 12.84806156158447 C 32.18470001220703 11.35372257232666 31.67348098754883 10.0953311920166 30.65103721618652 9.07288932800293 C 29.62859344482422 8.050446510314941 28.37020301818848 7.539224624633789 26.87586402893066 7.539224624633789 C 25.38152313232422 7.539224624633789 24.12313270568848 8.050446510314941 23.1006908416748 9.07288932800293 C 22.0782470703125 10.0953311920166 21.5670280456543 11.35372257232666 21.5670280456543 12.84806156158447 Z M 11.53922462463379 47.65043640136719 L 42.21250534057617 47.65043640136719 C 42.21250534057617 47.65043640136719 42.21250534057617 47.65043640136719 42.21250534057617 47.65043640136719 C 42.21250534057617 47.65043640136719 42.21250534057617 47.65043640136719 42.21250534057617 47.65043640136719 L 42.21250534057617 16.97715759277344 C 42.21250534057617 16.97715759277344 42.21250534057617 16.97715759277344 42.21250534057617 16.97715759277344 C 42.21250534057617 16.97715759277344 42.21250534057617 16.97715759277344 42.21250534057617 16.97715759277344 L 35.72392654418945 16.97715759277344 L 35.72392654418945 22.2859935760498 C 35.72392654418945 22.79721450805664 35.55679702758789 23.21995544433594 35.22253799438477 23.55421829223633 C 34.88827514648438 23.88847541809082 34.46553421020508 24.05560684204102 33.95431518554688 24.05560684204102 C 33.44309234619141 24.05560684204102 33.02035522460938 23.88847541809082 32.68609237670898 23.55421829223633 C 32.35183334350586 23.21995544433594 32.18470001220703 22.79721450805664 32.18470001220703 22.2859935760498 L 32.18470001220703 16.97715759277344 L 21.5670280456543 16.97715759277344 L 21.5670280456543 22.2859935760498 C 21.5670280456543 22.79721450805664 21.39989852905273 23.21995544433594 21.06563758850098 23.55421829223633 C 20.73137474060059 23.88847541809082 20.30863571166992 24.05560684204102 19.79741477966309 24.05560684204102 C 19.28619384765625 24.05560684204102 18.86345291137695 23.88847541809082 18.5291919708252 23.55421829223633 C 18.19493293762207 23.21995544433594 18.02780342102051 22.79721450805664 18.02780342102051 22.2859935760498 L 18.02780342102051 16.97715759277344 L 11.53922462463379 16.97715759277344 C 11.53922462463379 16.97715759277344 11.53922462463379 16.97715759277344 11.53922462463379 16.97715759277344 C 11.53922462463379 16.97715759277344 11.53922462463379 16.97715759277344 11.53922462463379 16.97715759277344 L 11.53922462463379 47.65043640136719 C 11.53922462463379 47.65043640136719 11.53922462463379 47.65043640136719 11.53922462463379 47.65043640136719 C 11.53922462463379 47.65043640136719 11.53922462463379 47.65043640136719 11.53922462463379 47.65043640136719 Z M 11.53922462463379 47.65043640136719 C 11.53922462463379 47.65043640136719 11.53922462463379 47.65043640136719 11.53922462463379 47.65043640136719 C 11.53922462463379 47.65043640136719 11.53922462463379 47.65043640136719 11.53922462463379 47.65043640136719 L 11.53922462463379 16.97715759277344 C 11.53922462463379 16.97715759277344 11.53922462463379 16.97715759277344 11.53922462463379 16.97715759277344 C 11.53922462463379 16.97715759277344 11.53922462463379 16.97715759277344 11.53922462463379 16.97715759277344 C 11.53922462463379 16.97715759277344 11.53922462463379 16.97715759277344 11.53922462463379 16.97715759277344 C 11.53922462463379 16.97715759277344 11.53922462463379 16.97715759277344 11.53922462463379 16.97715759277344 L 11.53922462463379 47.65043640136719 C 11.53922462463379 47.65043640136719 11.53922462463379 47.65043640136719 11.53922462463379 47.65043640136719 C 11.53922462463379 47.65043640136719 11.53922462463379 47.65043640136719 11.53922462463379 47.65043640136719 Z">
 		</path>
 	</svg>
-	<svg class="Rectangle_150">
-		<rect id="Rectangle_150" rx="0" ry="0" x="0" y="0" width="138" height="192">
+	<svg class="Rectangle_212">
+		<rect id="Rectangle_212" rx="0" ry="0" x="0" y="0" width="138" height="192">
 		</rect>
 	</svg>
 	<div id="n_">
 		<span>1</span>
 	</div>
-	<div id="Groupe_11">
-		<svg class="Ligne_9_co" viewBox="0 0 70 5">
-			<path id="Ligne_9_co" d="M 0 0 L 70 0">
+	<div id="Groupe_27">
+		<svg class="Ligne_9_bv" viewBox="0 0 70 5">
+			<path id="Ligne_9_bv" d="M 0 0 L 70 0">
 			</path>
 		</svg>
-		<svg class="Ligne_10_cp" viewBox="0 0 70 5">
-			<path id="Ligne_10_cp" d="M 0 0 L 70 0">
+		<svg class="Ligne_10_bw" viewBox="0 0 70 5">
+			<path id="Ligne_10_bw" d="M 0 0 L 70 0">
 			</path>
 		</svg>
-		<svg class="Ligne_11_cq" viewBox="0 0 70 5">
-			<path id="Ligne_11_cq" d="M 0 0 L 70 0">
+		<svg class="Ligne_11_bx" viewBox="0 0 70 5">
+			<path id="Ligne_11_bx" d="M 0 0 L 70 0">
 			</path>
 		</svg>
 	</div>
@@ -3962,8 +3923,8 @@ window.application = new Application();
 	<div id="Menu">
 		<span>Menu</span>
 	</div>
-	<div id="Accueil_Blog">
-		<span>Accueil/ Blog</span>
+	<div id="Accueil_Nos_produits_Eliquides">
+		<span>Accueil/ Nos produits/ Eliquides</span>
 	</div>
 	<div id="Groupe_12">
 		<svg class="Trac_1" viewBox="1541.536 6085 35.613 2">
@@ -3974,10 +3935,136 @@ window.application = new Application();
 			<span><</span>
 		</div>
 	</div>
-	<svg class="search_cy" viewBox="48 48 23.583 23.583">
-		<path id="search_cy" d="M 71.22157287597656 69.21583557128906 L 65.87542724609375 63.86969375610352 C 67.16253662109375 62.15621948242188 67.85734558105469 60.07056045532227 67.85501861572266 57.92750930786133 C 67.85501861572266 52.45352172851562 63.40150833129883 48.00000762939453 57.92750930786133 48.00000762939453 C 52.45352172851562 48.00000762939453 48.00000762939453 52.45352172851562 48.00000762939453 57.92750930786133 C 48.00000762939453 63.40150833129883 52.45352172851562 67.85501861572266 57.92750930786133 67.85501861572266 C 60.07056045532227 67.85734558105469 62.15621948242188 67.16252899169922 63.86969375610352 65.87542724609375 L 69.21583557128906 71.22157287597656 C 69.77772521972656 71.72383117675781 70.63404846191406 71.69985961914062 71.16696166992188 71.16696166992188 C 71.69985961914062 70.63404846191406 71.72383117675781 69.77772521972656 71.22156524658203 69.21583557128906 Z M 50.83644104003906 57.92750930786133 C 50.83642959594727 54.0112190246582 54.0112190246582 50.83642959594727 57.92750930786133 50.83642959594727 C 61.84379959106445 50.83642959594727 65.01858520507812 54.0112190246582 65.01858520507812 57.92750930786133 C 65.01858520507812 61.84379959106445 61.84379959106445 65.01858520507812 57.92750930786133 65.01858520507812 C 54.01316070556641 65.01388549804688 50.84113311767578 61.84185791015625 50.83644104003906 57.92750930786133 Z">
-		</path>
+	<svg class="Rectangle_220">
+		<rect id="Rectangle_220" rx="0" ry="0" x="0" y="0" width="205" height="80">
+		</rect>
 	</svg>
+	<svg class="Rectangle_221">
+		<rect id="Rectangle_221" rx="0" ry="0" x="0" y="0" width="138" height="80">
+		</rect>
+	</svg>
+	<div id="Filtrer_par">
+		<span>Filtrer par</span>
+	</div>
+	<div id="Trier_par">
+		<span>Trier par</span>
+	</div>
+	<a href="produit/consulter"><svg class="Rectangle_222">
+		<rect id="Rectangle_222" rx="0" ry="0" x="0" y="0" width="414" height="539">
+		</rect>
+	</svg></a>
+	<a href="produit/consulter"><svg class="Rectangle_223">
+		<rect id="Rectangle_223" rx="0" ry="0" x="0" y="0" width="414" height="539">
+		</rect>
+	</svg></a>
+	<a href="produit/consulter"><svg class="Rectangle_224">
+		<rect id="Rectangle_224" rx="0" ry="0" x="0" y="0" width="414" height="539">
+		</rect>
+	</svg></a>
+	<div id="Eliquide_Fraise_50ml">
+		<span>Eliquide Fraise, 50ml</span>
+	</div>
+	<div id="n_0_articles_trouvs_pour_Eliqu">
+		<span>10 articles trouvés pour Eliquides</span>
+	</div>
+	<div id="n_500">
+		<span>15,00€</span>
+	</div>
+	<div id="Eliquide_Fraise_50ml_cf">
+		<span>Eliquide Fraise, 50ml</span>
+	</div>
+	<div id="n_500_cg">
+		<span>15,00€</span>
+	</div>
+	<div id="Eliquide_Fraise_50ml_ch">
+		<span>Eliquide Fraise, 50ml</span>
+	</div>
+	<div id="n_500_ci">
+		<span>15,00€</span>
+	</div>
+	<a href="produit/consulter"><svg class="Rectangle_225">
+		<rect id="Rectangle_225" rx="0" ry="0" x="0" y="0" width="414" height="582">
+		</rect>
+	</svg></a>
+	<a href="produit/consulter"><svg class="Rectangle_226">
+		<rect id="Rectangle_226" rx="0" ry="0" x="0" y="0" width="414" height="539">
+		</rect>
+	</svg></a>
+	<a href="produit/consulter"><svg class="Rectangle_227">
+		<rect id="Rectangle_227" rx="0" ry="0" x="0" y="0" width="414" height="539">
+		</rect>
+	</svg></a>
+	<div id="Eliquide_Fraise_50ml_cm">
+		<span>Eliquide Fraise, 50ml</span>
+	</div>
+	<div id="n_500_cn">
+		<span>15,00€</span>
+	</div>
+	<div id="Eliquide_Fraise_50ml_co">
+		<span>Eliquide Fraise, 50ml</span>
+	</div>
+	<div id="n_500_cp">
+		<span>15,00€</span>
+	</div>
+	<svg class="Rectangle_230">
+		<rect id="Rectangle_230" rx="0" ry="0" x="0" y="0" width="414" height="539">
+		</rect>
+	</svg>
+	<svg class="Rectangle_231">
+		<rect id="Rectangle_231" rx="0" ry="0" x="0" y="0" width="414" height="539">
+		</rect>
+	</svg>
+	<svg class="Rectangle_232">
+		<rect id="Rectangle_232" rx="0" ry="0" x="0" y="0" width="414" height="539">
+		</rect>
+	</svg>
+	<div id="Eliquide_Fraise_50ml_ct">
+		<span>Eliquide Fraise, 50ml</span>
+	</div>
+	<div id="n_500_cu">
+		<span>15,00€</span>
+	</div>
+	<div id="Eliquide_Fraise_50ml_cv">
+		<span>Eliquide Fraise, 50ml</span>
+	</div>
+	<div id="n_500_cw">
+		<span>15,00€</span>
+	</div>
+	<div id="Eliquide_Fraise_50ml_cx">
+		<span>Eliquide Fraise, 50ml</span>
+	</div>
+	<div id="n_500_cy">
+		<span>15,00€</span>
+	</div>
+	<div id="Visuel_pour_une_promo_ou_autre">
+		<span>Visuel pour une promo ou autre</span>
+	</div>
+	<svg class="Rectangle_126">
+		<rect id="Rectangle_126" rx="40" ry="40" x="0" y="0" width="260" height="80">
+		</rect>
+	</svg>
+	<div id="Composer_">
+		<span>Composer !</span>
+	</div>
+	<svg class="Rectangle_113">
+		<rect id="Rectangle_113" rx="0" ry="0" x="0" y="0" width="1920" height="269">
+		</rect>
+	</svg>
+	<img id="kawaii-2995008_1280" src="img/kawaii-2995008_1280.png">
+		
+	<div id="Si_vous_ne_trouvez_pas_votre_b">
+		<span>Si vous ne trouvez pas votre bonheur dans nos offres, vous pouvez personnaliser votre <br/>Eliquide de A à Z ! En passant par le choix du gout, du ratio VG et PG, par le dosage de <br/>Nicotine et du format, il y a de quoi vous faire plaisir.</span>
+	</div>
+	<svg class="Rectangle_126_c">
+		<rect id="Rectangle_126_c" rx="40" ry="40" x="0" y="0" width="260" height="80">
+		</rect>
+	</svg>
+	<div id="Composer__c">
+		<span>Composer </span>
+	</div>
+	<div id="Vous_ne_trouvez_pas_votre_bonh">
+		<span>Vous ne trouvez pas votre bonheur ?</span>
+	</div>
 </div>
 </body>
 </html>

@@ -7,23 +7,8 @@
 <title>E-TEA VAPE</title>
 <style>
 
-* { box-sizing: border-box; }
-html { height: 100%; }
 body {
-    position: relative;
-    margin: 0;
-    height: 100%;
-    background: linear-gradient(steelblue, beige);
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    text-align: center;
-}
-
-main {
-    position: absolute;
-	top: 200px;
-    margin: 0;
-    height: 100%;
+	padding-top: 120px;
 }
 
 /*	HEADER	*/
@@ -86,7 +71,7 @@ main {
 	position: fixed;
 	width: 69.551px;
 	height: 69.551px;
-	left: 465px;
+	left: 460px;
 	top: 69.225px;
     fill: rgba(255,255,255,1);
 }
@@ -634,6 +619,263 @@ main {
   text-transform:uppercase;
   font-weight: bold;
 }
+
+.cat1 {
+	position: absolute;
+		width: 414px;
+		height: 414px;
+		left: 1366px;
+		top: 526px;
+		overflow: visible;
+}
+
+.cat1-bulle {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 314px;
+		height: 220px;
+		left: 1484px;
+		top: 398px;
+		fill: rgba(255,255,255,1);
+}
+
+.cat1-text {
+	left: 1494px;
+		top: 472px;
+		position: absolute;
+		overflow: visible;
+		width: 277px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(22,20,20,1);
+}
+
+.textmiel {
+	left: 556px;
+		top: 472px;
+		position: absolute;
+		overflow: visible;
+		width: 40px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(22,20,20,1);
+}
+
+.checkbox-miel {
+	position: absolute;
+	left: 669px;
+	top: 472px;
+}
+
+.textcitron {
+	left: 556px;
+		top: 538px;
+		position: absolute;
+		overflow: visible;
+		width: 62px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(22,20,20,1);
+}
+
+.checkbox-citron {
+	position: absolute;
+	left: 669px;
+	top: 538px;
+}
+
+.textfleur {
+	left: 556px;
+		top: 594px;
+		position: absolute;
+		overflow: visible;
+		width: 85px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(22,20,20,1);
+}
+
+.checkbox-fleur {
+	position: absolute;
+	left: 669px;
+	top: 594px;
+}
+
+.textfraise {
+	left: 556px;
+		top: 680px;
+		position: absolute;
+		overflow: visible;
+		width: 60px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(22,20,20,1);
+}
+
+.checkbox-fraise {
+	position: absolute;
+	left: 669px;
+	top: 600px;
+}
+
+.textcerise {
+	left: 846px;
+		top: 472px;
+		position: absolute;
+		overflow: visible;
+		width: 109px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(22,20,20,1);
+}
+
+.checkbox-cerise {
+	position: absolute;
+	left: 869px;
+	top: 455px;
+}
+
+.text-thenoir {
+	left: 875px;
+		top: 538px;
+		position: absolute;
+		overflow: visible;
+		width: 80px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(22,20,20,1);
+}
+
+.checkbox-thenoir {
+	position: absolute;
+	left: 869px;
+	top: 500px;
+}
+
+.textfruit {
+	left: 877px;
+		top: 594px;
+		position: absolute;
+		overflow: visible;
+		width: 75px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(22,20,20,1);
+}
+
+.checkbox-fruit {
+	position: absolute;
+	left: 869px;
+	top: 555px;
+}
+
+.text-thevert {
+	left: 874px;
+		top: 680px;
+		position: absolute;
+		overflow: visible;
+		width: 81px;
+		white-space: nowrap;
+		text-align: right;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(22,20,20,1);
+}
+
+.checkbox-thevert {
+	position: absolute;
+	left: 869px;
+	top: 600px;
+}
+
+.btn-retour {
+	position: absolute;
+	overflow: visible;
+	width: 260px;
+	height: 80px;
+	left: 432px;
+	top: 953px;
+	border-radius: 40px;
+}
+
+.text-btnretour {
+	left: 454px;
+		top: 976px;
+		position: absolute;
+		overflow: visible;
+		width: 218px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(22,20,20,1);
+}
+
+.btn-suivant {
+	position: absolute;
+		overflow: visible;
+		width: 260px;
+		height: 80px;
+		left: 1366px;
+		top: 953px;
+		cursor: pointer;
+		background-color: rgba(209,68,84,1);
+		border-radius: 40px;
+}
+
+.text-btnsuivant {
+	left: 80px;
+		top: 20px;
+		position: absolute;
+		overflow: visible;
+		width: 98px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+}
+
+
 
 </style>
 </head>

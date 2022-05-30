@@ -3783,7 +3783,7 @@ window.application = new Application();
 		<rect id="Rectangle_159" rx="0" ry="0" x="0" y="0" width="1920" height="118">
 		</rect>
 	</svg>
-	<img id="th_format_insta" src="th_format_insta.png" srcset="th_format_insta.png 1x, th_format_insta@2x.png 2x">
+	<img id="th_format_insta" src="../img/th_format_insta.png">
 		
 	<div id="Groupe_3">
 		<svg class="Ligne_9" viewBox="0 0 109 5">
@@ -3836,7 +3836,7 @@ window.application = new Application();
 	</div>
 	<div id="Grille_de_rptition_7">
 		<div id="Group" class="">
-			<img id="th_format_insta_bt" src="th_format_insta_bt.png" srcset="th_format_insta_bt.png 1x, th_format_insta_bt@2x.png 2x">
+			<img id="th_format_insta_bt" src="../img/th_format_insta_bt.png">
 				
 			<div id="Citron__Miel">
 				<span>Citron & Miel</span>
@@ -3849,7 +3849,7 @@ window.application = new Application();
 			</div>
 		</div>
 		<div id="Group_bx" class="">
-			<img id="th_format_insta_by" src="th_format_insta_by.png" srcset="th_format_insta_by.png 1x, th_format_insta_by@2x.png 2x">
+			<img id="th_format_insta_by" src="../img/th_format_insta_by.png">
 				
 			<div id="Citron__Miel_bz">
 				<span>Citron & Miel</span>
@@ -3862,7 +3862,7 @@ window.application = new Application();
 			</div>
 		</div>
 		<div id="Group_b" class="">
-			<img id="th_format_insta_b" src="th_format_insta_b.png" srcset="th_format_insta_b.png 1x, th_format_insta_b@2x.png 2x">
+			<img id="th_format_insta_b" src="../img/th_format_insta_b.png">
 				
 			<div id="Citron__Miel_b">
 				<span>Citron & Miel</span>
@@ -3885,18 +3885,18 @@ window.application = new Application();
 		<rect id="Rectangle_115" rx="0" ry="0" x="0" y="0" width="1920" height="269">
 		</rect>
 	</svg>
-	<svg class="Rectangle_116">
+	<a href="../liquide/ajouter"><svg class="Rectangle_116">
 		<rect id="Rectangle_116" rx="0" ry="0" x="0" y="0" width="398" height="450">
 		</rect>
-	</svg>
-	<svg class="Rectangle_117">
+	</svg></a>
+	<a href="../blog"><svg class="Rectangle_117">
 		<rect id="Rectangle_117" rx="0" ry="0" x="0" y="0" width="398" height="450">
 		</rect>
-	</svg>
-	<svg class="Rectangle_118">
+	</svg></a>
+	<a href="../a_propos"><svg class="Rectangle_118">
 		<rect id="Rectangle_118" rx="0" ry="0" x="0" y="0" width="398" height="450">
 		</rect>
-	</svg>
+	</svg></a>
 	<div id="Notre_blog_">
 		<span>Notre blog</span><br/>
 	</div>
@@ -3928,7 +3928,7 @@ window.application = new Application();
 		<rect id="Rectangle_161" rx="0" ry="0" x="0" y="0" width="195" height="190">
 		</rect>
 	</svg>
-	<img id="Th_sans_fond" src="Th_sans_fond.png" srcset="Th_sans_fond.png 1x, Th_sans_fond@2x.png 2x">
+	<img id="Th_sans_fond" src="../img/Th_sans_fond.png">
 		
 	<svg class="person" viewBox="47.994 32 43.82 47.19">
 		<path id="person" d="M 77.97700500488281 35.4317626953125 C 75.92720794677734 33.21870803833008 73.06424713134766 32 69.90423583984375 32 C 66.72738647460938 32 63.85494232177734 33.21133422851562 61.81463241577148 35.41069793701172 C 59.75220489501953 37.63428497314453 58.74732208251953 40.65630340576172 58.98326873779297 43.91953277587891 C 59.45095062255859 50.35751342773438 64.35001373291016 55.59469223022461 69.90423583984375 55.59469223022461 C 75.45847320556641 55.59469223022461 80.34910583496094 50.35856628417969 80.82415771484375 43.92163848876953 C 81.06326293945312 40.68790435791016 80.05206298828125 37.67220306396484 77.97699737548828 35.4317626953125 Z M 88.44293212890625 79.18938446044922 L 51.36555480957031 79.18938446044922 C 50.38272476196289 79.20216369628906 49.44641876220703 78.77154541015625 48.81648635864258 78.01702117919922 C 48.13182067871094 77.19858551025391 47.8558464050293 76.08099365234375 48.0601921081543 74.95076751708984 C 48.9492073059082 70.01905822753906 51.72369003295898 65.87628936767578 56.08449554443359 62.96803283691406 C 59.95865631103516 60.38630676269531 64.86614227294922 58.96536254882812 69.90423583984375 58.96536254882812 C 74.94233703613281 58.96536254882812 79.84982299804688 60.38736724853516 83.72399139404297 62.96803283691406 C 88.08479309082031 65.87523651123047 90.85928344726562 70.01799774169922 91.748291015625 74.94970703125 C 91.95263671875 76.07994079589844 91.67666625976562 77.19752502441406 90.99200439453125 78.01596832275391 C 90.36227416992188 78.77088165283203 89.42593383789062 79.20191192626953 88.44293212890625 79.18938446044922 Z">
