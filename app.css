@@ -2,12 +2,17 @@ body {
     background-color: #D14454;
     text-align: center;
     font-family: Poppins;
+    color: white;
+}
+
+.p-text {
+    font-size: 30px;
+    margin-top: 100px;
 }
 
 .p-countdown {
     font-size: 60px;
-    margin-top: 190px;
-    color: white;
+    margin-top: 60px;
 }
 
 .logo-img {
@@ -23,5 +28,4 @@ body {
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
-    color: white;
 }
