@@ -15,5 +15,7 @@ Merci de revenir dans : </p>
 
 <p id="demo" class="p-countdown"></p>
 
+<p class="p-mail">Si besoin contactait moi à <a href="mailto:samuel.beucler@my-digital-school.org">samuel.beucler@my-digital-school.org</a></p>
+
 </body>
 </html>
