@@ -1,4 +1,4 @@
-<footer>
+<footer id="footer">
     <a href="."><div class="footer-logo">
         <img src="img/Th_sans_fond_bw.png"/>
         <div class="logof-text">E-tea Vape</div>
@@ -20,7 +20,8 @@
     <a href="a_propos"><div class="marque">E-tea vape</div></a>
     <div class="mention">Mentions légales</div>
     <div class="cgv">CGV</div>
-    <div class="savoirpropos">En savoir plus</div>
+    <div class="rgpd">RGPD</div>
+    <!--<div class="savoirpropos">En savoir plus</div>
 
     <div class="newsletter">Newsletter</div>
     <div class="news1">lorem ipsum lorem ipsum lore</div>
@@ -28,7 +29,7 @@
     <div class="news3">lorem ipsum lorem ipsum lore</div>
     <div class="rgpd">RGPD</div>
 
-    <!--<div class="mail">
+    <div class="mail">
         <div class="mail-text">email</div>
         <div class="mail-button"><img src="img/send.png"/></div>
     </div>-->

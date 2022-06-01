@@ -58,4 +58,13 @@ class ProduitC extends Controller
         return view('produit');
     }
 
+    public function searchproduct(Request $request) {
+
+        $result = trim($request->search);
+
+        $product = ProduitM::where('libellePdt','LIKE','%'.$result.'%')->get();
+
+        return view('resultsearch',['product'=>$product]);
+    }
+
 }

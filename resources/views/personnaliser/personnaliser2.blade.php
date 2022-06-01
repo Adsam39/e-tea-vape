@@ -1,14 +1,17 @@
-@include('header5')
-<body style="background-color: rgba(242,242,242,1);">
+@include('include.header5')
+<body id="bodyperso">
 <form method="POST" action="ajoutergoutsave">
 <input type = "hidden" name = "_token" value = "<?php echo csrf_token() ?>" />
 <br><br><br><br><br>
+<!--<select name="lstgout[]" multiple="multiple" size="6">-->
 <?php
 foreach($enregAll as $uneligne) 
 {
-        echo ("<input type='checkbox' name='chkgout[]' value='$uneligne->IdGout'/>$uneligne->libelleGout");
+    //echo("<option value='$uneligne->IdGout'>$uneligne->libelleGout</option>");
+    echo ("<input type='checkbox' name='chkgout[]' value='$uneligne->IdGout'/>$uneligne->libelleGout");
 }
 ?>
+<!--</select>-->
 &emsp;<input type="submit" value="Valider">
 </form>
 <!--<div class="textmiel">Miel</div>
@@ -48,5 +51,5 @@ foreach($enregAll as $uneligne)
     <div></div>
     <button class="btn-retour"><div class="text-btnretour"></div></button>-->
 </body>
-@include('footer2')
+@include('include.footer2')
 </html>

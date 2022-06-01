@@ -1,0 +1,27 @@
+body {
+    background-color: #D14454;
+    text-align: center;
+    font-family: Poppins;
+}
+
+.p-countdown {
+    font-size: 60px;
+    margin-top: 190px;
+    color: white;
+}
+
+.logo-img {
+    overflow: visible;
+    top: 10px;
+}
+
+.logo-text {
+    top: 18px;
+    overflow: visible;
+    white-space: nowrap;
+    font-family: Arial Rounded MT;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}

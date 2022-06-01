@@ -13,21 +13,21 @@ class LiquideC extends Controller
     //REQUETES GET
     public function newliquide()
     {
-        return view('personnaliser');
+        return view('personnaliser.personnaliser');
     }
 
     public function newgout()
     {
         $enregAll = GoutM::all();
 
-        return view('personnaliser2', ['enregAll'=>$enregAll]);
+        return view('personnaliser.personnaliser2', ['enregAll'=>$enregAll]);
         //  Appel vue contenant un formulaire de création d'un produit
 
     }
 
     public function liquidefinal()
     {
-        return view('personnaliser3');
+        return view('personnaliser.personnaliser3');
     }
 
     //REQUETES POST
@@ -51,37 +51,23 @@ class LiquideC extends Controller
 
     public function newgoutersave(Request $request)
     {
-       $data = new GouterM();
+        $data = new GouterM();
 
-       $maxperso=LiquideM::max('idPdtP');
+        $maxperso=LiquideM::max('idPdtP');
 
-       $data->Perso_id = $maxperso;
-    
+        $data->Perso_id = $maxperso;
+
         var_dump($request->chkgout);
-
-        /*for($i=0;$i=count($request->chkgout);$i++)
+        for($i=0;$i<count($request->chkgout);$i++)
         {
             $data->Gout_id = $request->chkgout[$i];
-        }*/
-
-        foreach($request->chkgout as $lesgouts)
-        {
-            if($lesgouts == true)
-            {
-                $data->Gout_id = $lesgouts;
-            }
+            $data->save();
         }
+        /*$data->Gout_id = $request->lstgout;
 
-        $data->save();
+        $data->save();*/
 
-        //return redirect()->action('App\Http\Controllers\LiquideC@liquidefinal');
-
-        /*for($i=0;$i<count($request->chkgout);$i++)
-        {
-            $data->Gout_id = $request->chkgout[$i];
-            //var_dump($data);
-            //$this->datasave($data);
-        }*/
+        return redirect()->action('App\Http\Controllers\LiquideC@liquidefinal');
 
     }
 }

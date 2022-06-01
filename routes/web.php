@@ -15,7 +15,7 @@ Route::get('blog', 'App\Http\Controllers\IndexC@blog');
 
 //PRODUIT Controller
 
-Route::get('produit', 'App\Http\Controllers\ProduitC@products');
+Route::get('produit', 'App\Http\Controllers\ProduitC@all');
 
 Route::get('produit/consulter', 'App\Http\Controllers\ProduitC@product');
 
@@ -34,6 +34,8 @@ Route::get('produit/ajouter', 'App\Http\Controllers\ProduitC@newp');
 Route::post('produit/ajoutersave', 'App\Http\Controllers\ProduitC@newsave');  
 // Appel méthode newsave du contrôleur à partir de l'url 
 //  Traitement des données du form de saisie d'un nouveau produit
+
+Route::post('result', 'App\Http\Controllers\ProduitC@searchproduct');
 
 Route::get('liquide/ajouterliquide', 'App\Http\Controllers\LiquideC@newliquide');
 

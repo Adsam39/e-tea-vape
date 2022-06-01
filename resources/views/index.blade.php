@@ -1,8 +1,8 @@
-@include('header')
-<body>
+@include('include.header')
+<body id="globalbody">
     <div class="presentation">
         <div class="presentation-text">E-tea vape<br> Le site de la vape !</div>
-        <a href="liquide/ajouter"><button class="presentation-btn"><div class="btn-text">Ça vous dit de composer<br>votre e-liquide ?</div></button></a>
+        <a href="liquide/ajouterliquide"><button class="presentation-btn"><div class="btn-text">Ça vous dit de composer<br>votre e-liquide ?</div></button></a>
 
 
         <span class="scroll-btn">
@@ -20,13 +20,13 @@
     <div class="personnaliser-title">Et si vous<br>
 personnalisiez<br>
 votre e-liquide ?</div>
-    <div class="personnaliser-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr
-ud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pari
-atur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-qui officia deserunt mollit anim id est laborum</p></div>
-    <a href="liquide/ajouter"><button class="personnaliser-btn"><div class="btn-textperso">Composer !</div></button></a>
+    <div class="personnaliser-text"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br>
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr<br>
+ud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute<br>
+irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat<br>nulla pari
+atur. Excepteur sint occaecat cupidatat non proident, <br>sunt in culpa
+qui officia deserunt mollit anim id est laborum</span></div>
+    <a href="liquide/ajouterliquide"><button class="personnaliser-btn"><div class="btn-textperso">Composer !</div></button></a>
 
     <div class="vente">Nos meilleurs ventes</div>
     <div class="pdt1-img"><img src="img/e-cigarette-4338716.png"/></div>
@@ -44,9 +44,9 @@ qui officia deserunt mollit anim id est laborum</p></div>
     <a href="produit"><button class="btn-vente"><div class="text-btnvente">Tous nos e-liquides</div></button></a>
 
     <div class="etvape-about">C'est quoi E-tea Vape ?</div>
-    <div class="text-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-minim veniam, quis nostr ud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-in voluptate velit esse cillum dolore eu fugiat nulla pari atur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia des
+    <div class="text-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>Ut enim ad
+minim veniam, quis nostr ud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>Duis aute irure dolor in reprehenderit
+in voluptate velit esse cillum dolore eu fugiat nulla pari atur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia des
 erunt mollit anim id est laborum</div>
 
     <div class="overlay-about"></div>
@@ -85,4 +85,4 @@ personalisable</div>
     <div class="avis-verif">Avis vérifié</div>
     <div class="avis-img"><img src="img/Image_1.png"/></div>
 </body>
-@include('footer')
+@include('include.footer')

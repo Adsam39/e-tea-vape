@@ -1,5 +1,5 @@
-@include('header2')
-<body>
+@include('../include.header2')
+<body id="bodyproduit">
 <select class="select-produit" name="cbofiltre">
     <option value="filtre">Filtre</option>
 <?php
@@ -16,7 +16,7 @@ foreach($enregAll as $uneligne)
     {
         echo ("<div class='card'>
                 <div class='card-image'>
-                    <img src='../img/sw.png'/>
+                    <img src='img/sw.png'/>
                 </div>
                 <div class='card-body'>
                     <div class='card-title'>
@@ -27,13 +27,13 @@ foreach($enregAll as $uneligne)
                         $uneligne->prixPdt €
                     </div>
                 </div>
-            </div>");
+            </div><br>");
     }
     if($uneligne->Cat_id ==2)
     {
         echo ("<div class='card'>
                 <div class='card-image'>
-                    <img src='../img/sw.png'/>
+                    <img src='img/sw.png'/>
                 </div>
                 <div class='card-body'>
                     <div class='card-title'>
@@ -52,5 +52,5 @@ foreach($enregAll as $uneligne)
 echo "Produit avec stock le plus élevé : " . $enregMaxStock->libellePdt . " : " . $enregMaxStock->stockPdt ;*/
 ?>
 </body>
-@include('footer2')
+@include('../include.footer2')
 </html>
