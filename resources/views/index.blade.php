@@ -55,15 +55,14 @@ erunt mollit anim id est laborum</div>
     <div class="logo-france"><img src="img/n_f1eb-1f1f7.png"/></div>
     <div class="text-france">Made in France</div>
     <div class="logo-kawaii"><img src="img/kawaii-2995008_1280_e.png"/></div>
-    <div class="text-kawaii">Original &<br>
-personalisable</div>
+    <div class="text-kawaii">Original &<br>personalisable</div>
     <button class="btn-about"><div class="text-btnabout">Découvrez nous !</div></button>
 
     <div class="actu">Notre actualité</div>
     
     
         
-  <div class="container">
+  <!--<div class="container">
 
       <div class="slider">
         <img class="active" src="https://images.unsplash.com/photo-1559467713-f830ec30e3e4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
@@ -72,11 +71,17 @@ personalisable</div>
       </div>
 
       <div class="cont-btn">
-        <div class="btn-nav left">←</div>
-        <div class="btn-nav right">→</div>
+        <div class="btn-nav" id="left" onclick=slidePrecedente()>←</div>
+        <div class="btn-nav" id="right" onclick=slideSuivante()>→</div>
       </div>
 
-  </div>
+  </div>-->
+
+<div id="slider">
+        <img src="img/sw.png" alt="la guerre des etoiles" id="slide">
+        <div id="precedent" onclick="ChangeSlide(-1)"><</div>
+        <div id="suivant" onclick="ChangeSlide(1)">></div>
+</div>
 
 <a href="blog"><button class="btn-actu"><div class="text-btnactu">En apprendre plus</div></button></a>
 

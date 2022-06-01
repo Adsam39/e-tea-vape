@@ -5,6 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>E-TEA VAPE</title>
+<link rel="icon" type="image/png" href="../img/Th_sans_fond.png" />
 <link rel="stylesheet" type="text/css" href="../css/style.css">
 <script src="../js/app.js"></script>
 </head>
@@ -22,8 +23,8 @@
             <div class="logo-text">E-tea Vape</div>
         </div>
     </a>
-    <a href="../contact"><div class="location"><img src="../img/map.png"/></div>
-    <div class="call"><img src="../img/phone.png"/></div></a>
-    <div class="person"><img src="../img/user.png"/></div>
+    <a href="../contact"><div class="location"><img src="../img/pin.png"/></div>
+    <div class="call"><img src="../img/call.png"/></div></a>
+    <div class="person"><img src="../img/person.png"/></div>
     <div class="shopping"><img src="../img/shopping.png"/></div>
 </header>

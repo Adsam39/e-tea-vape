@@ -5,6 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>E-TEA VAPE</title>
+<link rel="icon" type="image/png" href="img/Th_sans_fond.png" />
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <script src="js/app.js"></script>
 </head>

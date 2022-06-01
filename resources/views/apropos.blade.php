@@ -6,7 +6,7 @@
 <div id="name-about">Le gérant, Gael</div>
 <div id="img-gerant"><img src="img/gerant.png"/></div>
 <div id="deb-text">"</div>
-<div id="contenu-text">J'aime la vie</div>
+<div id="contenu-text">La meilleure raison pour lancer une entreprise est de créer du sens, de créer un produit ou un service qui répond aux besoins des gens qui vous ressemblent</div>
 <div id="fin-text">"</div>
 <div id="author">- Gael, le gérant d'E-tea Vape</div>
 
