@@ -77,11 +77,11 @@ erunt mollit anim id est laborum</div>
 
   </div>-->
 
-<div id="slider">
+<!--<div id="slider">
         <img src="img/sw.png" alt="la guerre des etoiles" id="slide">
         <div id="precedent" onclick="ChangeSlide(-1)"><</div>
         <div id="suivant" onclick="ChangeSlide(1)">></div>
-</div>
+</div>-->
 
 <a href="blog"><button class="btn-actu"><div class="text-btnactu">En apprendre plus</div></button></a>
 

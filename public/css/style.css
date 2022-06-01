@@ -178,6 +178,7 @@
   top: 500px;
   fill: rgba(242, 242, 242, 1);
   border-radius: 45px;
+  border: #F2F2F2;
   background-color: #F2F2F2;
   cursor: pointer;
 }
@@ -372,6 +373,7 @@
   left: 880px;
   top: 1520px;
   border-radius: 45px;
+  border: #D14454;
   background-color: #D14454;
   cursor: pointer;
 }
@@ -583,6 +585,7 @@
   top: 2569px;
   background-color: rgba(242, 242, 242, 1);
   border-radius: 40px;
+  border: #F2F2F2;
   cursor: pointer;
 }
 
@@ -722,6 +725,7 @@
   top: 3547px;
   fill: rgba(242, 242, 242, 1);
   border-radius: 40px;
+  border: #F2F2F2;
 }
 
 .text-btnabout {
@@ -766,6 +770,7 @@
   top: 4749px;
   background-color: rgba(242, 242, 242, 1);
   border-radius: 40px;
+  border: #F2F2F2;
 }
 
 .text-btnactu {
@@ -927,7 +932,7 @@ img.active {
 }
 
 #name-about {
-  left: 278px;
+  left: 222px;
   top: 769px;
   position: absolute;
   overflow: visible;
@@ -945,13 +950,13 @@ img.active {
   position: absolute;
   width: 674px;
   height: 755px;
-  left: 278px;
+  left: 222px;
   top: 899px;
   overflow: visible;
 }
 
 #deb-text {
-  left: 1052px;
+  left: 980px;
   top: 920px;
   position: absolute;
   overflow: visible;
@@ -966,8 +971,8 @@ img.active {
 }
 
 #contenu-text {
-  left: 1150px;
-  top: 1040px;
+  left: 1050px;
+  top: 1000px;
   position: absolute;
   overflow: visible;
   width: 179px;
@@ -981,8 +986,8 @@ img.active {
 }
 
 #fin-text {
-  left: 1440px;
-  top: 1292px;
+  left: 1400px;
+  top: 1250px;
   position: absolute;
   overflow: visible;
   width: 39px;
@@ -996,8 +1001,8 @@ img.active {
 }
 
 #author {
-  left: 1345px;
-  top: 1397px;
+  left: 1140px;
+  top: 1350px;
   position: absolute;
   overflow: visible;
   width: 298px;
@@ -1011,7 +1016,7 @@ img.active {
 }
 
 #date-about {
-  left: 274px;
+  left: 222px;
   top: 1744px;
   position: absolute;
   overflow: visible;
@@ -1026,7 +1031,7 @@ img.active {
 }
 
 #date1 {
-  left: 570px;
+  left: 335px;
   top: 1867px;
   position: absolute;
   overflow: visible;
@@ -1041,7 +1046,7 @@ img.active {
 }
 
 #date2 {
-  left: 1057px;
+  left: 857px;
   top: 1869px;
   position: absolute;
   overflow: visible;
@@ -1056,7 +1061,7 @@ img.active {
 }
 
 #date3 {
-  left: 1536px;
+  left: 1336px;
   top: 1869px;
   position: absolute;
   overflow: visible;
@@ -1075,7 +1080,7 @@ img.active {
   overflow: visible;
   width: 398px;
   height: 326px;
-  left: 277px;
+  left: 100px;
   top: 1921px;
   fill: rgba(255, 255, 255, 1);
 }
@@ -1085,7 +1090,7 @@ img.active {
   overflow: visible;
   width: 398px;
   height: 326px;
-  left: 760px;
+  left: 600px;
   top: 1921px;
   fill: rgba(255, 255, 255, 1);
 }
@@ -1095,13 +1100,13 @@ img.active {
   overflow: visible;
   width: 398px;
   height: 326px;
-  left: 1243px;
+  left: 1130px;
   top: 1921px;
   fill: rgba(255, 255, 255, 1);
 }
 
 #legende-date1 {
-  left: 277px;
+  left: 100px;
   top: 2257px;
   position: absolute;
   overflow: visible;
@@ -1116,7 +1121,7 @@ img.active {
 }
 
 #legende-date2 {
-  left: 760px;
+  left: 600px;
   top: 2257px;
   position: absolute;
   overflow: visible;
@@ -1131,7 +1136,7 @@ img.active {
 }
 
 #legende-date3 {
-  left: 1243px;
+  left: 1173px;
   top: 2257px;
   position: absolute;
   overflow: visible;
@@ -1161,7 +1166,7 @@ img.active {
 }
 
 #titre-valeur {
-  left: 278px;
+  left: 222px;
   top: 2557px;
   position: absolute;
   overflow: visible;
@@ -1178,7 +1183,7 @@ img.active {
 #overlay-about {
   position: absolute;
   overflow: visible;
-  width: 1920px;
+  width: 1536px;
   height: 190px;
   left: 0px;
   top: 2756px;
@@ -1683,6 +1688,18 @@ img.active {
 }
 
 /*  FIN MENU  */
+
+/*  SEARCH  */
+
+#body-search {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  background-color: #d14454;
+  overflow: hidden;
+}
+
+/*  FIN SEARCH  */
 
 /*  RESULT SEARCH */
 .title-result {

@@ -35,13 +35,13 @@
 	E-tea blog
 	</div></a>
 
-	<div id=instagram-menu>
+	<a href="https://www.instagram.com/eteavape/" target="_blank"><div id=instagram-menu>
 		<img src="img/image_2.png"/>
-	</div>
+	</div></a>
 
-	<div id=facebook-menu>
+	<a href="https://www.facebook.com/eteavape" target="_blank"><div id=facebook-menu>
 		<img src="img/facebook.png"/>
-	</div>
+	</div></a>
 
 	<div id=youtube-menu>
 		<img src="img/youtube.png"/>

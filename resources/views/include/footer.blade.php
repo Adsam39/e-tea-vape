@@ -34,7 +34,7 @@
         <div class="mail-button"><img src="img/send.png"/></div>
     </div>-->
 
-    <div class="instagram"><img src="img/image_2.png"/></div>
-    <div class="facebook"><img src="img/facebook.png"/></div>
+    <a href="https://www.instagram.com/eteavape/" target="_blank"><div class="instagram"><img src="img/image_2.png"/></div></a>
+    <a href="https://www.facebook.com/eteavape" target="_blank"><div class="facebook"><img src="img/facebook.png"/></div></a>
     <div class="youtube"><img src="img/youtube.png"/></div>
 </footer>
