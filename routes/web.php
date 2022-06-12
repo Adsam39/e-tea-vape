@@ -17,7 +17,7 @@ Route::get('blog', 'App\Http\Controllers\IndexC@blog');
 
 Route::get('produit', 'App\Http\Controllers\ProduitC@all');
 
-Route::get('produit/consulter', 'App\Http\Controllers\ProduitC@product');
+Route::get('produit/consulter/{id}', 'App\Http\Controllers\ProduitC@product');
 
 //Route::get('produit/consulter', 'App\Http\Controllers\ProduitC@all'); 
 // Appel méthode all du contrôleur produitC à partir de l'url 
