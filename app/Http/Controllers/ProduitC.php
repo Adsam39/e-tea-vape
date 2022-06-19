@@ -50,12 +50,9 @@ class ProduitC extends Controller
         $produits = ProduitM::where('Cat_id',$request->id);
     }*/
 
-    public function product($id) {
-        $prod = ProduitM::find($id);
-        
-        $infos = ProduitM::where('idPdt', $prod);
+    public function product() {
 
-        return view('produit', ['infos'=>$infos]);
+        return view('produit2');
     }
 
     public function searchproduct(Request $request) {

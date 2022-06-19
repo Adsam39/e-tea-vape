@@ -23,16 +23,33 @@ class IndexC extends Controller
 
     public function about()
     {
-        return view('apropos');
+        return view('apropos2');
     }
 
     public function contact()
     {
-        return view('contact');
+        return view('contact2');
     }
 
     public function blog()
     {
         return view('blog');
+    }
+
+    public function person()
+    {
+        return view('account');
+    }
+
+    public function account(Request $request)
+    {
+        if($request->txtid == "adsam39" && $request->txtmdp == "coucou")
+        {
+            return redirect()->action('App\Http\Controllers\IndexC@index');
+        }
+        else
+        {
+            return redirect()->action('App\Http\Controllers\IndexC@index');
+        }
     }
 }

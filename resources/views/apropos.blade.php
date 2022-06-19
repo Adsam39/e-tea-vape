@@ -32,6 +32,7 @@ cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est la
 
 <div id="titre-valeur">Nos valeurs</div>
 <div id=overlay-about></div>
-<div id="fait-main"><img src="img/hand2.png"/></div>
+<img id="fait-main" src="img/hand2.png"/>
+<img id="france" src="img/n_f1eb-1f1f7.png"/>
 </body>
 @include("include.footer")

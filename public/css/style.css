@@ -145,7 +145,7 @@
 .presentation {
   position: inherit;
   width: 1536px;
-  height: 767.2px;
+  height: 575px;
   left: 0px;
   top: 117px;
   overflow: visible;
@@ -1196,6 +1196,15 @@ img.active {
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
+#france {
+  position: absolute;
+  width: 221px;
+  height: 208px;
+  left: 692px;
+  top: 2652px;
+  overflow: visible;
+}
+
 /*	FIN A PROPOS	*/
 
 /*	BLOG	*/
@@ -2202,4 +2211,27 @@ img.active {
   left: 968px;
   top: 833px;
   background-color: rgba(209, 68, 84, 1);
+}
+
+#slider-img {
+  position: absolute;
+  width: 1396px;
+  height: 715px;
+  left: 278px;
+  top: 3847px;
+  overflow: visible;
+}
+
+#produits {
+  overflow: visible;
+  width: 405px;
+  white-space: nowrap;
+  font-family: Arial Rounded MT;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  color: #000000;
+  padding-top: 129px;
+  padding-left: 949px;
+  text-align: center;
 }
