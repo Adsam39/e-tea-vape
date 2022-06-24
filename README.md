@@ -2,7 +2,8 @@ Pour lancer le projet :
 <ul>
     <li>Avoir laragon ou autre serveur de développement web</li>
     <li>télécharger le code en zip ou cloner dans votre www</li>
-    <li>modifier le fichier .env pour la bdd et le tour est joué</li>
+    <li>modifier le fichier .env pour la bdd</li>
+    <li>Ajouter les données avec le fichier mdsbdd.sql et le tour est joué</li>
 </ul>
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
